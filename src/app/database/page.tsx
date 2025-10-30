@@ -23,7 +23,7 @@ export default function Database() {
             </Button>
           </Link>
           <h1 className="mb-4 text-5xl font-bold tracking-tighter leading-tight md:text-7xl">
-            Post Database
+            All Posts
           </h1>
           <p className="text-lg text-gray-600">
             Viewing {archivedPosts.length} archived posts not shown on the landing page

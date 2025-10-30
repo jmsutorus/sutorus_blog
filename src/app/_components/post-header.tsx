@@ -20,32 +20,41 @@ export function PostHeader({ title, poster, date, rating, year, length, genre, c
   return (
     <>
       <PostTitle>{title}</PostTitle>
-      <div className="mb-8 md:mb-16 sm:mx-0">
-        <CoverImage title={title} src={poster} />
-      </div>
-      <div className="max-w-2xl mx-auto">
-        <div className="mb-6 flex flex-wrap gap-4 text-lg">
-          <div className="flex items-center gap-2">
-            <span className="font-semibold">Rating:</span>
-            <span className="text-yellow-600 dark:text-yellow-400">{rating}/10</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="font-semibold">Date:</span>
-            <span>{<DateFormatter dateString={date} />}</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="font-semibold">Length:</span>
-            <span>{length}</span>
+
+      {/* Desktop: side-by-side layout, Mobile: stacked */}
+      <div className="mb-8 md:mb-16 flex flex-col lg:flex-row lg:items-start lg:gap-12">
+        {/* Image container - centered on all screens */}
+        <div className="flex-shrink-0 lg:w-1/2 flex justify-center mb-8 lg:mb-0">
+          <div className="max-w-md w-full">
+            <CoverImage title={title} src={poster} />
           </div>
         </div>
-        <div className="mb-6 text-lg">
-          <span className="font-semibold">Genre:</span> {genreDisplay}
-        </div>
-        <div className="mb-6 text-lg">
-          <span className="font-semibold">Category:</span> {category.replaceAll(']', '').replaceAll('[', '')}
-        </div>
-        <div className="mb-6 text-lg">
-          <span className="font-semibold">Tags:</span> {tags.toString()}
+
+        {/* Metadata container */}
+        <div className="lg:w-1/2 lg:pt-4">
+          <div className="mb-6 flex flex-wrap gap-4 text-lg">
+            <div className="flex items-center gap-2">
+              <span className="font-semibold">Rating:</span>
+              <span className="text-yellow-600 dark:text-yellow-400">{rating}/10</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="font-semibold">Date:</span>
+              <span>{<DateFormatter dateString={date} />}</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="font-semibold">Length:</span>
+              <span>{length}</span>
+            </div>
+          </div>
+          <div className="mb-6 text-lg">
+            <span className="font-semibold">Genre:</span> {genreDisplay}
+          </div>
+          <div className="mb-6 text-lg">
+            <span className="font-semibold">Category:</span> {category.replaceAll(']', '').replaceAll('[', '')}
+          </div>
+          <div className="mb-6 text-lg">
+            <span className="font-semibold">Tags:</span> {tags.toString()}
+          </div>
         </div>
       </div>
     </>
