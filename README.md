@@ -1,3 +1,12 @@
+# Context Engineering
+- Enter planning mode
+- Use web-research-specialist agent to help
+- Once research is done and you know what to do
+- Use /dev-docs to put together the plan
+- Use plan-reviewer agent to help make the plan better
+- Implement the plan one step at a time
+- Use /dev-docs-update to keep the plan updated
+
 # A statically generated blog example using Next.js, Markdown, and TypeScript
 
 This is the existing [blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) plus TypeScript.

@@ -3,7 +3,9 @@
     "allow": [
       "mcp__shadcn__get_add_command_for_items",
       "mcp__shadcn__get_item_examples_from_registries",
-      "mcp__context7__get-library-docs"
+      "mcp__context7__get-library-docs",
+      "WebSearch",
+      "SlashCommand(/dev-docs:*)"
     ],
     "deny": [],
     "ask": []
