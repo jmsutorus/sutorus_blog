@@ -1,0 +1,43 @@
+---
+completed: '2025-05-27T00:00:00.000Z'
+released: '2019-07-30T00:00:00.000Z'
+genre:
+  - '[[Science Fiction]]'
+  - '[[Space Opera]]'
+title: Dark Age Ahead
+poster: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1525464420i/29226553.jpg'
+authors: '[[Pierce Brown]]'
+description: "For a decade Darrow led a revolution against the corrupt color-coded Society. Now, outlawed by the very Republic he founded, he wages a rogue war on Mercury in hopes that he can still salvage the dream of Eo. But as he leaves death and destruction in his wake, is he still the hero who broke the chains? Or will another legend rise to take his place?\r\rLysander au Lune, the heir in exile, has returned to the Core. Determined to bring peace back to mankind at the edge of his sword, he must overcome or unite the treacherous Gold families of the Core and face down Darrow over the skies of war-torn Mercury.\r\rBut theirs are not the only fates hanging in the balance.\r\rOn Luna, Mustang, Sovereign of the Republic, campaigns to unite the Republic behind her husband. Beset by political and criminal enemies, can she outwit her opponents in time to save him?\r\rOnce a Red refugee, young Lyria now stands accused of treason, and her only hope is a desperate escape with unlikely new allies.\r\rAbducted by a new threat to the Republic, Pax and Electra, the children of Darrow and Sevro, must trust in Ephraim, a thief, for their salvation—and Ephraim must look to them for his chance at redemption.\r\rAs alliances shift, break, and re-form—and power is seized, lost, and reclaimed—every player is at risk in a game of conquest that could turn the Rising into a new Dark Age."
+tags:
+  - books
+  - red_rising
+  - year_2025
+  - may
+rating: 8
+finished: true
+category: Books
+---
+
+### Summary
+
+### Favorite Quotes
+
+- [3] Quote One
+
+
+### Final Thoughts
+
+### Key Takeaways
+
+### Characters
+
+
+- [ ] 
+
+**Notes**
+
+
+- [ ] 
+
+**Notes**
+

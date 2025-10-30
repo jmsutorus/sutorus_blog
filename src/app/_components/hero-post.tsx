@@ -5,12 +5,12 @@ import DateFormatter from "./date-formatter";
 type Props = {
   title: string;
   poster: string;
-  date: string;
+  date: string | Date;
   plot: string;
   slug: string;
   category: string;
   rating: number;
-  year: number | string;
+  year: string | Date;
 };
 
 export function HeroPost({
@@ -43,7 +43,7 @@ export function HeroPost({
               ⭐ {rating}/10
             </span>
             <span className="text-gray-600 dark:text-gray-400">
-              {year}
+              {year.toLocaleString()}
             </span>
           </div>
           <div className="mb-4 md:mb-0 text-lg text-gray-600 dark:text-gray-400">

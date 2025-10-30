@@ -5,15 +5,16 @@ import { PostTitle } from "@/app/_components/post-title";
 type Props = {
   title: string;
   poster: string;
-  date: string;
+  date: string | Date;
   rating: number;
-  year: number | string;
+  year: string | Date;
   length: string;
   genre: string | string[];
   category: string;
+  tags: string[]
 };
 
-export function PostHeader({ title, poster, date, rating, year, length, genre, category }: Props) {
+export function PostHeader({ title, poster, date, rating, year, length, genre, category, tags }: Props) {
   const genreDisplay: string = Array.isArray(genre) ? genre.join(', ').replaceAll(']', '').replaceAll('[', '') : genre;
 
   return (
@@ -29,8 +30,8 @@ export function PostHeader({ title, poster, date, rating, year, length, genre, c
             <span className="text-yellow-600 dark:text-yellow-400">{rating}/10</span>
           </div>
           <div className="flex items-center gap-2">
-            <span className="font-semibold">Year:</span>
-            <span>{year}</span>
+            <span className="font-semibold">Date:</span>
+            <span>{<DateFormatter dateString={date} />}</span>
           </div>
           <div className="flex items-center gap-2">
             <span className="font-semibold">Length:</span>
@@ -43,8 +44,8 @@ export function PostHeader({ title, poster, date, rating, year, length, genre, c
         <div className="mb-6 text-lg">
           <span className="font-semibold">Category:</span> {category.replaceAll(']', '').replaceAll('[', '')}
         </div>
-        <div className="mb-6 text-lg text-gray-600 dark:text-gray-400">
-          <DateFormatter dateString={date} />
+        <div className="mb-6 text-lg">
+          <span className="font-semibold">Tags:</span> {tags.toString()}
         </div>
       </div>
     </>

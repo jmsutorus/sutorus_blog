@@ -3,21 +3,54 @@ import fs from "fs";
 import matter from "gray-matter";
 import { join } from "path";
 
-const postsDirectory = join(process.cwd(), "_posts");
+const postsDirectory = "C:/Users/jmsut/Documents/Github/obsidian/blog_posts";
+
+/**
+ * Recursively find all markdown files in a directory up to a specified depth
+ */
+function findMarkdownFiles(dir: string, maxDepth: number, currentDepth: number = 0, relativePath: string = ""): string[] {
+  if (currentDepth > maxDepth) {
+    return [];
+  }
+
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
+  const files: string[] = [];
+
+  for (const entry of entries) {
+    const fullPath = join(dir, entry.name);
+    const relPath = relativePath ? join(relativePath, entry.name) : entry.name;
+
+    if (entry.isDirectory() && currentDepth < maxDepth) {
+      // Recursively search subdirectories
+      files.push(...findMarkdownFiles(fullPath, maxDepth, currentDepth + 1, relPath));
+    } else if (entry.isFile() && entry.name.endsWith('.md')) {
+      // Add markdown files
+      files.push(relPath);
+    }
+  }
+
+  return files;
+}
 
 export function getPostSlugs() {
-  return fs.readdirSync(postsDirectory);
+  // Search up to 2 levels deep (0 = root, 1 = first level subfolders, 2 = second level subfolders)
+  return findMarkdownFiles(postsDirectory, 2);
 }
 
 export function getPostBySlug(slug: string) {
   const realSlug = slug.replace(/\.md$/, "");
+  console.log('realSlug ' + realSlug);
+  // Handle both flat and nested paths (e.g., "post-name" or "subfolder/post-name")
   const fullPath = join(postsDirectory, `${realSlug}.md`);
+  console.log('fullPath ' + fullPath);
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
 
-  // Convert slug to title
-  // Example: "the-dark-knight" -> "The Dark Knight"
-  const title = realSlug
+  // Convert slug to title, handling nested paths
+  // Example: "subfolder/the-dark-knight" -> "The Dark Knight"
+  // Extract just the filename without the folder path
+  const fileName = realSlug.split(/[/\\]/).pop() || realSlug;
+  const title = fileName
     .split('-')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
@@ -35,7 +68,7 @@ export function getAllPosts(): Post[] {
   const posts = slugs
     .map((slug) => getPostBySlug(slug))
     // sort posts by date in descending order
-    .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
+    .sort((post1, post2) => (post1.completed > post2.completed ? -1 : 1));
   return posts;
 }
 
@@ -55,5 +88,5 @@ export function getPostsByGenre(genre: string): Post[] {
 
 // Get unwatched posts
 export function getUnwatchedPosts(): Post[] {
-  return getAllPosts().filter(post => !post.watched);
+  return getAllPosts().filter(post => !post.completed);
 }

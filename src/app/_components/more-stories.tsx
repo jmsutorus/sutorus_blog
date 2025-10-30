@@ -17,9 +17,9 @@ export function MoreStories({ posts }: Props) {
             key={post.slug}
             title={post.title}
             poster={post.poster}
-            date={post.date}
+            date={post.completed}
             slug={post.slug}
-            plot={post.plot}
+            plot={post.description}
             category={post.category}
             rating={post.rating}
           />

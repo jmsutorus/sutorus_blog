@@ -1,15 +1,14 @@
 export type Post = {
   slug: string;
   title: string;
-  date: string;
   category: string;
   poster: string;
   length: string;
   genre: string | string[];
-  year: number | string;
+  released: string | Date;
   cast: string[];
-  plot: string;
-  watched: string;
+  description: string;
+  completed: string | Date;
   tags: string[];
   rating: number;
   content: string;

@@ -5,7 +5,7 @@ import DateFormatter from "./date-formatter";
 type Props = {
   title: string;
   poster: string;
-  date: string;
+  date: string | Date;
   plot: string;
   slug: string;
   category: string;
@@ -33,7 +33,7 @@ export function PostPreview({
       </h3>
       <div className="flex flex-wrap gap-3 items-center mb-4">
         <span className="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-semibold">
-          {category.replaceAll('[', '').replaceAll(']', '')}
+          {category?.replaceAll('[', '').replaceAll(']', '') || ''}
         </span>
         <span className="text-yellow-600 dark:text-yellow-400 font-semibold">
           ⭐ {rating}/10

@@ -10,7 +10,11 @@ import { PostHeader } from "@/app/_components/post-header";
 
 export default async function Post(props: Params) {
   const params = await props.params;
-  const post = getPostBySlug(params.slug);
+  // Join slug array to handle nested paths (e.g., ["Movies", "Weapons"] → "Movies/Weapons")
+  const slugPath = Array.isArray(params.slug) ? params.slug.join('/') : params.slug;
+  console.log('slugPath:', slugPath);
+
+  const post = getPostBySlug(slugPath);
 
   if (!post) {
     return notFound();
@@ -26,12 +30,13 @@ export default async function Post(props: Params) {
           <PostHeader
             title={post.title}
             poster={post.poster}
-            date={post.watched}
+            date={post.completed}
             rating={post.rating}
-            year={post.year}
+            year={post.released}
             length={post.length}
             genre={post.genre}
             category={post.category}
+            tags={post.tags}
           />
           <PostBody content={content} />
         </article>
@@ -42,13 +47,17 @@ export default async function Post(props: Params) {
 
 type Params = {
   params: Promise<{
-    slug: string;
+    slug: string[];
   }>;
 };
 
 export async function generateMetadata(props: Params): Promise<Metadata> {
   const params = await props.params;
-  const post = getPostBySlug(params.slug);
+  // Join slug array to handle nested paths
+  const slugPath = Array.isArray(params.slug) ? params.slug.join('/') : params.slug;
+  console.log('generateMetadata slugPath:', slugPath);
+
+  const post = getPostBySlug(slugPath);
 
   if (!post) {
     return notFound();
@@ -69,6 +78,8 @@ export async function generateStaticParams() {
   const posts = getAllPosts();
 
   return posts.map((post) => ({
-    slug: post.slug,
+    // Split the slug by path separators to create an array for nested routes
+    // e.g., "Movies/Weapons" → ["Movies", "Weapons"]
+    slug: post.slug.split(/[/\\]/),
   }));
 }
