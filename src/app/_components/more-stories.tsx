@@ -12,11 +12,11 @@ export function MoreStories({ posts }: Props) {
     <section>
       <div className="mb-8 flex items-center justify-between">
         <h2 className="text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
-          More Stories
+          More Posts
         </h2>
         <Link href="/database">
           <Button variant="default" size="lg">
-            View All Posts →
+            View All →
           </Button>
         </Link>
       </div>

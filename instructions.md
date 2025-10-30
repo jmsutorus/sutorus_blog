@@ -372,3 +372,116 @@ If issues arise:
 - Consider URL structure: `/posts/the-dark-knight` vs `/movies/the-dark-knight`
 - Decide on consistent image naming conventions
 - Update CLAUDE.md after transformation is complete
+
+---
+
+# Landing Page Redesign Plan (Added: 2025-10-30)
+
+## Overview
+Transform the blog from a cold, content-first experience to a warm, personal landing page featuring Joseph Sutorus, with reviews moved to a dedicated `/reviews` route.
+
+## Implementation Steps
+
+### 1. Move Current Landing Page to `/reviews` Route
+- **Create**: `src/app/reviews/page.tsx`
+  - Copy entire content from current `src/app/page.tsx`
+  - Keep the same structure: Intro → HeroPost → MoreStories
+  - Update page metadata to reflect "Reviews" instead of home
+- **Result**: All current blog functionality accessible at `/reviews`
+
+### 2. Create New Personal Landing Page at `/`
+**File**: `src/app/page.tsx` (complete rewrite)
+
+**Components to build**:
+
+#### a. Hero Section with Catchy Title
+- Large, bold heading: "Joseph Sutorus"
+- Subheading/tagline (engaging, personal)
+- Use shadcn Typography components for styling
+- Gradient or accent colors to add warmth
+
+#### b. Navigation Links (Top of Page)
+Create placeholder navigation using shadcn Button/Link components:
+- "Reviews" → `/reviews`
+- "All Posts" → `/database`
+- "About" → `/about` (placeholder)
+- "Projects" → `/projects` (placeholder)
+- "Contact" → `/contact` (placeholder)
+
+Consider using shadcn's Navigation Menu component for a polished look.
+
+#### c. About Me Section
+- **Heading**: "About Me" or something more creative
+- **Content**: 2-3 paragraphs of Lorem ipsum text
+- **Image**: Placeholder image (use a service like https://via.placeholder.com/400x400 or similar)
+- **Layout**: Side-by-side on desktop (image left, text right), stacked on mobile
+- **Styling**: Use shadcn Card component or custom styled div with warm colors
+
+### 3. Create Global Navigation Component
+- **File**: `src/app/_components/nav.tsx`
+- Include the navigation links from step 2b
+- Add to `src/app/layout.tsx` so it appears on all pages
+- Include theme switcher in nav
+- Use shadcn Navigation Menu or custom implementation
+
+### 4. Update Existing Components
+- **MoreStories**: Already has "View All →" button (keep as-is)
+- **Header**: Update "Blog" link to go to `/reviews` or remove if global nav is added
+- **Footer**: Keep current social links (already implemented)
+
+### 5. Shadcn Components to Use
+- **Navigation Menu** - for top navigation
+- **Button** - for CTAs and links
+- **Card** - for about section
+- **Avatar** - for profile image (if needed)
+- **Badge** - for tags/labels
+- **Separator** - for visual breaks
+
+### 6. Context7 Usage
+- Look up Next.js 15 routing documentation if needed
+- Reference shadcn/ui component patterns
+- Check Tailwind CSS layout utilities
+
+### 7. Styling Approach
+- Maintain current Tailwind + dark mode support
+- Add warmer colors:
+  - Consider warm accent colors (orange, teal, purple)
+  - Use gradients in hero section
+  - Add subtle shadows and rounded corners
+- Ensure responsive design (mobile-first)
+
+## File Structure After Implementation
+```
+src/app/
+├── page.tsx (NEW landing page)
+├── reviews/
+│   └── page.tsx (moved from root page.tsx)
+├── database/
+│   └── page.tsx (existing)
+├── posts/
+│   └── [...slug]/page.tsx (existing)
+└── _components/
+    ├── nav.tsx (NEW global navigation)
+    └── (all existing components)
+```
+
+## Success Criteria
+✅ Current blog functionality preserved at `/reviews`
+✅ New landing page feels warm and personal
+✅ Navigation works across all pages
+✅ All existing routes still function
+✅ Dark mode support maintained
+✅ Mobile responsive
+✅ Uses shadcn components for consistency
+
+## Progress Tracking
+- [ ] Plan saved to instructions.md
+- [ ] Current page moved to /reviews
+- [ ] Navigation Menu component installed
+- [ ] Card and Avatar components installed
+- [ ] Global Navigation component created
+- [ ] Hero section created
+- [ ] About Me section created
+- [ ] New landing page assembled
+- [ ] Layout updated with navigation
+- [ ] Type checking passed
