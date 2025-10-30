@@ -8,6 +8,8 @@ You are a senior software engineer who is fluent in React, NextJS, and Tailwind.
 # Project Overview
 This is a statically generated blog built with Next.js 15, TypeScript, Tailwind CSS v3, and Markdown. It's based on the Next.js blog-starter example.
 
+Always use context7 when looking up doc on Frameworks.
+
 # Core Architecture
 
 ## Content Management

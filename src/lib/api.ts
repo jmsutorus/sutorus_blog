@@ -39,10 +39,8 @@ export function getPostSlugs() {
 
 export function getPostBySlug(slug: string) {
   const realSlug = slug.replace(/\.md$/, "");
-  console.log('realSlug ' + realSlug);
   // Handle both flat and nested paths (e.g., "post-name" or "subfolder/post-name")
   const fullPath = join(postsDirectory, `${realSlug}.md`);
-  console.log('fullPath ' + fullPath);
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
 
