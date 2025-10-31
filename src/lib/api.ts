@@ -88,3 +88,12 @@ export function getPostsByGenre(genre: string): Post[] {
 export function getUnwatchedPosts(): Post[] {
   return getAllPosts().filter(post => !post.completed);
 }
+
+// Get featured posts for landing page
+export function getFeaturedPosts(): Post[] {
+  const allPosts = getAllPosts();
+  const featuredPosts = allPosts.filter(post => post.featured === true);
+
+  // Return top 3 featured posts, or all available if less than 3
+  return featuredPosts.slice(0, 3);
+}

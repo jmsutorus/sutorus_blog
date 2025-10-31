@@ -6,14 +6,51 @@ import { Inter } from "next/font/google";
 import cn from "classnames";
 
 import "./globals.css";
+import "./styles/animations.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: `Joseph Sutorus`,
-  description: `Personal blog and review site by Joseph Sutorus featuring reviews of movies, shows, and more.`,
+  title: {
+    default: 'Joseph Sutorus - Writer, Reviewer, Storyteller',
+    template: '%s | Joseph Sutorus'
+  },
+  description: 'Exploring the stories that shape us through thoughtful reviews and authentic perspectives on film, television, and the art of storytelling.',
+  keywords: ['movie reviews', 'tv reviews', 'film criticism', 'entertainment reviews', 'storytelling', 'Joseph Sutorus'],
+  authors: [{ name: 'Joseph Sutorus' }],
+  creator: 'Joseph Sutorus',
   openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://josephsutorus.com',
+    siteName: 'Joseph Sutorus',
+    title: 'Joseph Sutorus - Writer, Reviewer, Storyteller',
+    description: 'Exploring the stories that shape us through thoughtful reviews and authentic perspectives on film, television, and the art of storytelling.',
+    images: [
+      {
+        url: HOME_OG_IMAGE_URL,
+        width: 1200,
+        height: 630,
+        alt: 'Joseph Sutorus - Writer, Reviewer, Storyteller',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Joseph Sutorus - Writer, Reviewer, Storyteller',
+    description: 'Exploring the stories that shape us through thoughtful reviews and authentic perspectives on film, television, and the art of storytelling.',
     images: [HOME_OG_IMAGE_URL],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
 };
 

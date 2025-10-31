@@ -1,0 +1,51 @@
+{
+  "reading": {
+    "title": "Currently Reading",
+    "book": "The Pragmatic Programmer",
+    "author": "David Thomas & Andrew Hunt",
+    "cover": "https://placehold.co/400x600/E8B86D/FFFFFF.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+  },
+  "projects": [
+    {
+      "title": "Personal Blog Engine",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Built with Next.js, TypeScript, and Tailwind CSS. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "image": "https://placehold.co/600x400/D97642/FFFFFF.png",
+      "link": "https://example.com"
+    },
+    {
+      "title": "Task Management App",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+      "image": "https://placehold.co/600x400/F4C95D/FFFFFF.png",
+      "link": "https://example.com"
+    },
+    {
+      "title": "Weather Dashboard",
+      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Built using React and integrating with weather APIs. Sed quia consequuntur magni dolores eos qui ratione.",
+      "image": "https://placehold.co/600x400/D97642/FFFFFF.png",
+      "link": "https://example.com"
+    }
+  ],
+  "hobbies": [
+    {
+      "title": "Photography",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Capturing moments and exploring composition through landscape and street photography. Duis aute irure dolor in reprehenderit.",
+      "image": "https://placehold.co/400x400/E8B86D/FFFFFF.png"
+    },
+    {
+      "title": "Gaming",
+      "description": "Excepteur sint occaecat cupidatat non proident. Enjoying narrative-driven games and competitive multiplayer experiences. Sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "image": "https://placehold.co/400x400/F4C95D/FFFFFF.png"
+    },
+    {
+      "title": "Hiking",
+      "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem. Exploring trails and connecting with nature through weekend adventures. Totam rem aperiam eaque ipsa quae ab illo.",
+      "image": "https://placehold.co/400x400/D97642/FFFFFF.png"
+    },
+    {
+      "title": "Music Production",
+      "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet. Creating ambient electronic music and learning sound design. Consectetur adipisci velit sed quia non numquam.",
+      "image": "https://placehold.co/400x400/E8B86D/FFFFFF.png"
+    }
+  ]
+}

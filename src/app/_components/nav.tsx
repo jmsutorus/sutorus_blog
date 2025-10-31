@@ -11,7 +11,7 @@ export function Nav() {
       <div className="container mx-auto px-5">
         <div className="flex h-16 items-center justify-between">
           {/* Logo/Name */}
-          <Link href="/" className="text-xl font-bold hover:opacity-80 transition-opacity">
+          <Link href="/" className="text-xl font-bold text-foreground hover:text-primary transition-colors duration-200">
             Joseph Sutorus
           </Link>
 

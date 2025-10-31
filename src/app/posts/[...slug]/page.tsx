@@ -12,7 +12,6 @@ export default async function Post(props: Params) {
   const params = await props.params;
   // Join slug array to handle nested paths (e.g., ["Movies", "Weapons"] → "Movies/Weapons")
   const slugPath = Array.isArray(params.slug) ? params.slug.join('/') : params.slug;
-  console.log('slugPath:', slugPath);
 
   const post = getPostBySlug(slugPath);
 

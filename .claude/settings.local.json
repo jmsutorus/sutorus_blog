@@ -5,7 +5,9 @@
       "mcp__shadcn__get_item_examples_from_registries",
       "mcp__context7__get-library-docs",
       "WebSearch",
-      "SlashCommand(/dev-docs:*)"
+      "SlashCommand(/dev-docs:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)"
     ],
     "deny": [],
     "ask": []

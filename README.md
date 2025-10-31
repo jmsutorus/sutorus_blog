@@ -1,9 +1,12 @@
 # Context Engineering
+- Create a Product Requirnment Document
+    - This document should list what you want the AI to do
 - Enter planning mode
+- Referece your PRD as the starting point when planning
 - Use web-research-specialist agent to help
 - Once research is done and you know what to do
-- Use /dev-docs to put together the plan
 - Use plan-reviewer agent to help make the plan better
+- Use /dev-docs to put together the plan
 - Implement the plan one step at a time
 - Use /dev-docs-update to keep the plan updated
 
