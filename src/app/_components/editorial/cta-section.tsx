@@ -13,7 +13,7 @@ export function CTASection() {
       {/* Animated warm gradient background */}
       <AnimatedGradient opacity={0.25} />
 
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container mx-auto px-0 sm:px-4 relative z-10">
         <div className="max-w-5xl mx-auto text-center space-y-12">
           {/* Headline */}
           <div className="space-y-4">

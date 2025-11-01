@@ -44,7 +44,7 @@ Beyond writing, I'm constantly exploring new creative pursuits, from gaming to r
   if (loading) {
     return (
       <section className="py-24 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-0 sm:px-4">
           <div className="max-w-7xl mx-auto text-center">
             <p className="text-muted-foreground">Loading...</p>
           </div>

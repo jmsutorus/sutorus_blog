@@ -31,6 +31,18 @@ module.exports = {
                 port: '',
                 pathname: '/**',
             },
+            {
+                protocol: 'https',
+                hostname: 'wh40k.lexicanum.com',
+                port: '',
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'cdn2.steamgriddb.com',
+                port: '',
+                pathname: '/**',
+            }
         ],
     },
     webpack(config) {

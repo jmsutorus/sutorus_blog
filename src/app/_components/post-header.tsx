@@ -31,16 +31,16 @@ export function PostHeader({ title, poster, date, rating, year, length, genre, c
 
       {/* Desktop: side-by-side layout, Mobile: stacked */}
       <div className="mb-6 flex flex-col lg:flex-row lg:items-start lg:gap-8">
-        {/* Image container - centered on all screens */}
-        <div className="flex-shrink-0 lg:w-1/2 flex justify-center mb-6 lg:mb-0">
-          <div className="max-w-md w-full">
+        {/* Image container - full width on mobile, centered on desktop */}
+        <div className="w-full flex-shrink-0 lg:w-1/2 flex justify-center mb-6 lg:mb-0">
+          <div className="w-full max-w-md">
             <CoverImage title={title} src={poster} />
           </div>
         </div>
 
         {/* Metadata container - styled like StatsBox */}
-        <div className="lg:w-1/4">
-          <div className="rounded-lg border bg-card p-4 shadow-sm">
+        <div className="w-full lg:w-1/4">
+          <div className="w-full rounded-lg border bg-card p-4 shadow-sm">
             <h3 className="mb-3 text-lg font-semibold">Details</h3>
 
             <div className="space-y-2.5">

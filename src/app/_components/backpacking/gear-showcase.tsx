@@ -35,7 +35,7 @@ function GearCard({ item }: { item: GearItem }) {
 
 export function GearShowcase({ gear }: GearShowcaseProps) {
   return (
-    <section className="container mx-auto px-4 py-16">
+    <section className="container mx-auto px-0 sm:px-4 py-16">
       <h2 className="mb-8 text-4xl font-bold">Gear</h2>
 
       {/* The Big 3 */}

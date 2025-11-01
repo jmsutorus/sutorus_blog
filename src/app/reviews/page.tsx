@@ -1,12 +1,11 @@
 import Container from "@/app/_components/container";
-import { HeroPost } from "@/app/_components/hero-post";
 import { Intro } from "@/app/_components/intro";
-import { MoreStories } from "@/app/_components/more-stories";
+import { ReviewsGrid } from "@/app/_components/reviews-grid";
 import { getAllPosts } from "@/lib/api";
 import { Metadata } from "next";
 
-// Configure the number of recent posts to display (excluding the hero post)
-const MAX_RECENT_POSTS = 5;
+// Configure the number of recent posts to display
+const MAX_RECENT_POSTS = 9;
 
 export const metadata: Metadata = {
   title: "Reviews",
@@ -16,26 +15,14 @@ export const metadata: Metadata = {
 export default function Reviews() {
   const allPosts = getAllPosts();
 
-  const heroPost = allPosts[0];
-
-  // Show only the X most recent posts (after the hero post)
-  const morePosts = allPosts.slice(1, 1 + MAX_RECENT_POSTS);
+  // Show only the X most recent posts
+  const recentPosts = allPosts.slice(0, MAX_RECENT_POSTS);
 
   return (
     <main>
       <Container>
         <Intro />
-        <HeroPost
-          title={heroPost.title}
-          poster={heroPost.poster}
-          date={heroPost.completed}
-          plot={heroPost.description}
-          slug={heroPost.slug}
-          category={heroPost.category}
-          rating={heroPost.rating}
-          year={heroPost.released}
-        />
-        {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+        {recentPosts.length > 0 && <ReviewsGrid posts={recentPosts} />}
       </Container>
     </main>
   );

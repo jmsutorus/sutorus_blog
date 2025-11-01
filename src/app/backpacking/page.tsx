@@ -48,7 +48,7 @@ export default async function BackpackingPage() {
       <BackpackingHero hero={data.hero} />
 
       {/* Featured Trips Preview */}
-      <section className="container mx-auto px-4 py-16">
+      <section className="container mx-auto px-0 sm:px-4 py-16">
         <div className="mb-8 flex items-center justify-between">
           <h2 className="text-4xl font-bold">Featured Trips</h2>
           <Link href="/backpacking/trips">

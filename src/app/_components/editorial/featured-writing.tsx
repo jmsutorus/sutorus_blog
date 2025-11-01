@@ -22,7 +22,7 @@ export function FeaturedWriting({ posts }: FeaturedWritingProps) {
 
   return (
     <section className="py-24 scroll-animate">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-0 sm:px-4">
         <div className="max-w-7xl mx-auto">
           {/* Section header */}
           <div className="mb-16">

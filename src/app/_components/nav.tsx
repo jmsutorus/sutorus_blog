@@ -8,7 +8,7 @@ import { Separator } from "@/components/ui/separator";
 export function Nav() {
   return (
     <nav className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container mx-auto px-5">
+      <div className="container mx-auto px-0 sm:px-5">
         <div className="flex h-16 items-center justify-between">
           {/* Logo/Name */}
           <Link href="/" className="text-xl font-bold text-foreground hover:text-primary transition-colors duration-200">
