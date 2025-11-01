@@ -1,0 +1,226 @@
+{
+  "hero": {
+    "title": "Backpacking Adventures",
+    "subtitle": "Exploring wilderness one trail at a time",
+    "image": {
+      "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762014835/DSCF0325_nnjyfv.jpg",
+      "alt": "Yosemite valley from glacier point",
+      "width": 4898,
+      "height": 3265
+    }
+  },
+  "trips": [
+    {
+      "id": "wind-river-range-2025",
+      "featured": true,
+      "name": "TItcomb Basin Trail",
+      "location": "Wind River Range, Wyoming",
+      "dates": "July 5-6, 2025",
+      "hero": {
+        "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762014694/DSCF2467_xhmrsi.jpg",
+        "alt": "Pristine alpine lake reflecting mountain peaks",
+        "width": 4898,
+        "height": 3265
+      },
+      "stats": {
+        "distance": "30.92 miles",
+        "elevation": "+4,167 ft",
+        "difficulty": "Moderate",
+        "duration": "2 days / 1 nights",
+        "season": "Late July - September",
+        "permits": "None",
+        "routeUrl": "https://www.alltrails.com/trail/us/wyoming/titcomb-basin-trail"
+      },
+      "story": "Titcomb Basin is one of the more sought-after overnight backpacking locations in the Wind River Range. This route takes you past Photographer's Point to several subalpine lakes. There are many awesome campsite opportunities near these lakes, especially at Island Lake. Titcomb Lakes are situated within the gorgeous Titcomb Basin along the Titcomb Basin Trail. Many hikers opt to base camp at Titcomb Lakes for a few nights to explore the area. See if you can spot the Twins Glacier at the head of the basin!",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Trailhead to Island Lake",
+          "distance": "12 miles",
+          "elevation": "+2,400 ft",
+          "highlights": [
+            "Well maintained trail",
+            "Surrounded by mountains on all sides",
+            "Passed by many alpine lakes with plenty of water",
+            "Great weather, ot too cold or too hot"
+          ],
+          "description": "The first day started with a gentle climb through cathedral-like old-growth forest, where massive Douglas firs and western hemlocks created a cool, green canopy. After 3 miles, the trail steepened considerably as we gained the ridge, transitioning from deep forest to subalpine meadows. The wildflower display was spectacular - acres of lupine, paintbrush, and avalanche lilies carpeted the slopes. We took a long lunch break at Panorama Point (mile 5.5) where the full scope of the Alpine Lakes Wilderness spread before us. The final push to Upper Basin involved some rocky switchbacks, but the effort was rewarded with a stunning campsite beside a crystal-clear tarn. We set up camp with plenty of daylight remaining, allowing time to explore the basin and watch marmots emerge from their burrows as the afternoon sun warmed the rocks.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762014703/DSCF2346_1_ltye9a.jpg",
+              "alt": "Starting the trail",
+              "width": 800,
+              "height": 600,
+              "caption": "At the trailhead ready to go"
+            },
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762014696/DSCF2481_hsihcf.jpg",
+              "alt": "View of bugs on trees",
+              "width": 800,
+              "height": 600,
+              "caption": "So many mosquitos this early in the season"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Upper Basin to Granite Ridge Camp",
+          "distance": "17.5 miles",
+          "elevation": "+2,800 ft / -4,200 ft",
+          "highlights": [
+            "Amazing campsite at Island Lake",
+            "Morning hike into Titcomb Basin",
+            "Surrounded by mountains",
+            "Downhill hike out"
+          ],
+          "description": "Day two was the most challenging and rewarding of the trip. We broke camp early to tackle the exposed ridge section before afternoon storms threatened. The climb out of Upper Basin was steep and relentless, gaining 1,800 feet in less than 2 miles over loose talus and granite slabs. Once on the ridgeline, the trail became more of a route-finding exercise, with cairns marking the way across open rock. The views were absolutely worth the effort - Mount Rainier dominated the southern horizon while glaciated peaks stretched endlessly to the north. We encountered a family of mountain goats picking their way across impossibly steep terrain. The descent to Granite Ridge Camp required careful foot placement on loose rock, but we arrived at our campsite by mid-afternoon. This elevated camp offered incredible sunset views and we watched the alpenglow paint the peaks pink and orange as daylight faded.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762014689/DSCF2571_xedlcb.jpg",
+              "alt": "Titcomb basin",
+              "width": 800,
+              "height": 600,
+              "caption": "Moringing hike into the basin"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762014687/DSCF2633_m4sam1.jpg",
+          "alt": "Mountain peak reflected in still alpine lake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Morning reflections at Upper Basin"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762014687/DSCF2434_krh5eh.jpg",
+          "alt": "Purple mountain flowers",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Mountain flowers"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762014700/DSCF2363_afkdfi.jpg",
+          "alt": "Tent at sunset with mountain backdrop",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Pretty flowers"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762014704/DSCF2414_rpnzpd.jpg",
+          "alt": "Cascading waterfall in alpine basin",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Small lake next to the trail"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762014704/DSCF2430_x0xjco.jpg",
+          "alt": "Mountain goat on rocky outcrop",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Another alpine lake"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762014694/DSCF2467_xhmrsi.jpg",
+          "alt": "Trail winding through alpine terrain",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Looking down at Island Lake"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762014693/DSCF2485_qt0z60.jpg",
+          "alt": "Close-up of alpine wildflowers",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Sunset photo of the lake"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762014693/DSCF2555_vtibhh.jpg",
+          "alt": "Panoramic view from highest point",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Morning reflections"
+        }
+      ],
+      "gearHighlights": [
+        "40L ultralight backpack worked perfectly for 3 days",
+        "Quilted sleeping bag kept me warm down to 35°F",
+        "Trekking poles essential for steep descents",
+        "Water filter processed crystal-clear alpine water effortlessly",
+        "Lightweight tarp provided flexibility in camp placement"
+      ],
+      "tips": [
+        "Start Day 2 early to complete ridge traverse before afternoon storms",
+        "Water is abundant throughout - no need to carry more than 1L between sources",
+        "Mosquitoes can be intense in July; bring head net and repellent",
+        "Not many camping spot at Island Lake; arrive early or have backup locations",
+        "Check trail conditions before going - snow can linger on north slopes until August"
+      ]
+    }
+  ],
+  "gear": {
+    "big3": [
+      {
+        "name": "Granite Gear Crown2 60L",
+        "category": "Backpack",
+        "weight": "1020g (36 oz)",
+        "notes": "Frameless design with excellent ventilation. Perfect balance of capacity and weight."
+      },
+      {
+        "name": "ZPacks Duplex Tent",
+        "category": "Shelter",
+        "weight": "595g (21 oz)",
+        "notes": "Two-person freestanding DCF tent. Spacious interior with dual vestibules."
+      },
+      {
+        "name": "Enlightened Equipment Revelation 20°F",
+        "category": "Sleep System",
+        "weight": "510g (18 oz)",
+        "notes": "Quilted sleeping bag with 850-fill down. Versatile for three-season use."
+      }
+    ],
+    "clothing": [
+      {
+        "name": "Patagonia Capilene Cool Daily Hoody",
+        "category": "Base Layer",
+        "weight": "140g (5 oz)",
+        "notes": "Excellent sun protection and moisture management"
+      },
+      {
+        "name": "Outdoor Research Helium Rain Jacket",
+        "category": "Rain Gear",
+        "weight": "170g (6 oz)",
+        "notes": "Packable and surprisingly durable for the weight"
+      }
+    ],
+    "cooking": [
+      {
+        "name": "MSR PocketRocket 2",
+        "category": "Stove",
+        "weight": "73g (2.6 oz)",
+        "notes": "Reliable, lightweight canister stove"
+      },
+      {
+        "name": "TOAKS 750ml Titanium Pot",
+        "category": "Cookware",
+        "weight": "95g (3.4 oz)",
+        "notes": "Perfect size for solo/duo meals"
+      }
+    ],
+    "electronics": [
+      {
+        "name": "Garmin inReach Mini",
+        "category": "Navigation/Safety",
+        "weight": "100g (3.5 oz)",
+        "notes": "Satellite communicator for emergency contact and tracking"
+      },
+      {
+        "name": "Nitecore NU25",
+        "category": "Lighting",
+        "weight": "29g (1 oz)",
+        "notes": "USB rechargeable headlamp with excellent battery life"
+      }
+    ]
+  }
+}

@@ -88,6 +88,55 @@
     --border: 0 0% 90%; /* Lighter border */
   }
 
+  /* Backpacking Page - Earthy outdoor tones */
+  .backpacking-page {
+    /* Light Mode */
+    --background: 40 20% 98%; /* Warm off-white */
+    --foreground: 160 30% 15%; /* Deep forest text */
+
+    /* --card: 40 40% 97%; */
+    /* --card-foreground: 40 40% 95%; */
+
+    --primary: 160 60% 35%; /* Forest green #2E8B57 */
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 25 30% 50%; /* Stone gray #8B7355 */
+    --secondary-foreground: 0 0% 98%;
+
+    --accent: 30 45% 40%; /* Saddle brown #8B4513 */
+    --accent-foreground: 0 0% 98%;
+
+    --muted: 40 20% 92%; /* Warm light gray */
+    --muted-foreground: 160 20% 35%;
+
+    --border: 40 20% 85%;
+    --ring: 160 60% 35%;
+  }
+
+  .backpacking-page.dark {
+    /* Dark Mode */
+    --background: 160 15% 10%; /* Dark forest */
+    --foreground: 40 20% 90%; /* Warm light text */
+
+    /* --card: 40 40% 97%; */
+    /* --card-foreground: 40 40% 95%; */
+
+    --primary: 160 50% 45%; /* Lighter forest green */
+    --primary-foreground: 160 15% 10%;
+
+    --secondary: 25 25% 55%; /* Lighter stone gray */
+    --secondary-foreground: 160 15% 10%;
+
+    --accent: 30 40% 50%; /* Lighter saddle brown */
+    --accent-foreground: 160 15% 10%;
+
+    --muted: 160 10% 20%;
+    --muted-foreground: 40 15% 70%;
+
+    --border: 160 10% 25%;
+    --ring: 160 50% 45%;
+  }
+
   /* Fade-in animation for story sections */
   @keyframes fade-in {
     from {

@@ -27,11 +27,6 @@ export function Nav() {
                 Reviews
               </Button>
             </Link>
-            <Link href="/database">
-              <Button variant="ghost" size="sm">
-                All Posts
-              </Button>
-            </Link>
             <Link href="/about">
               <Button variant="ghost" size="sm">
                 About
@@ -40,6 +35,11 @@ export function Nav() {
             <Link href="/wedding">
               <Button variant="ghost" size="sm">
                 Wedding
+              </Button>
+            </Link>
+            <Link href="/backpacking">
+              <Button variant="ghost" size="sm">
+                Backpacking
               </Button>
             </Link>
             <Link href="/projects">
