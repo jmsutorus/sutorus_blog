@@ -11,7 +11,7 @@ export function Nav() {
       <div className="container mx-auto px-5">
         <div className="flex h-16 items-center justify-between">
           {/* Logo/Name */}
-          <Link href="/" className="text-xl font-bold hover:opacity-80 transition-opacity">
+          <Link href="/" className="text-xl font-bold text-foreground hover:text-primary transition-colors duration-200">
             Joseph Sutorus
           </Link>
 
@@ -27,14 +27,19 @@ export function Nav() {
                 Reviews
               </Button>
             </Link>
-            <Link href="/database">
-              <Button variant="ghost" size="sm">
-                All Posts
-              </Button>
-            </Link>
             <Link href="/about">
               <Button variant="ghost" size="sm">
                 About
+              </Button>
+            </Link>
+            <Link href="/wedding">
+              <Button variant="ghost" size="sm">
+                Wedding
+              </Button>
+            </Link>
+            <Link href="/backpacking">
+              <Button variant="ghost" size="sm">
+                Backpacking
               </Button>
             </Link>
             <Link href="/projects">

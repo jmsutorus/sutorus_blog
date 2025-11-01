@@ -66,7 +66,22 @@ export function getAllPosts(): Post[] {
   const posts = slugs
     .map((slug) => getPostBySlug(slug))
     // sort posts by date in descending order
-    .sort((post1, post2) => (post1.completed > post2.completed ? -1 : 1));
+    .sort((post1, post2) => (post1.completed > post2.completed ? -1 : 1))
+    // strip [[ and ]] from genre and category fields
+    .map((post) => ({
+      ...post,
+      genre: Array.isArray(post.genre)
+        ? post.genre.map(g => g.replace(/\[\[|\]\]/g, ''))
+        : typeof post.genre === 'string'
+          ? post.genre.replace(/\[\[|\]\]/g, '')
+          : post.genre,
+      category: typeof post.category === 'string'
+        ? post.category.replace(/\[\[|\]\]/g, '')
+        : post.category,
+      description: typeof post.description === 'string'
+        ? post.description.replace(/\"/g, '')
+        : post.description
+    }));
   return posts;
 }
 
@@ -87,4 +102,13 @@ export function getPostsByGenre(genre: string): Post[] {
 // Get unwatched posts
 export function getUnwatchedPosts(): Post[] {
   return getAllPosts().filter(post => !post.completed);
+}
+
+// Get featured posts for landing page
+export function getFeaturedPosts(): Post[] {
+  const allPosts = getAllPosts();
+  const featuredPosts = allPosts.filter(post => post.featured === true);
+
+  // Return top 3 featured posts, or all available if less than 3
+  return featuredPosts.slice(0, 3);
 }

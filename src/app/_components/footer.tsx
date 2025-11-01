@@ -12,7 +12,7 @@ export function Footer() {
               href="https://github.com/jmsutorus"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
+              className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-all duration-200 hover:scale-105"
               aria-label="GitHub"
             >
               <Github className="h-6 w-6" />
@@ -22,7 +22,7 @@ export function Footer() {
               href="https://www.instagram.com/josephsutorus/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
+              className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-all duration-200 hover:scale-105"
               aria-label="Instagram"
             >
               <Instagram className="h-6 w-6" />

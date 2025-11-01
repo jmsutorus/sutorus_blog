@@ -1,0 +1,403 @@
+/**
+ * CSS Scroll-Driven Animations for Landing Page Redesign
+ * Uses native CSS animation-timeline for React 19 compatibility
+ * Includes reduced-motion support for accessibility
+ */
+
+/* ========================================
+   Keyframe Definitions
+   ======================================== */
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* ========================================
+   Scroll-Driven Animation Classes
+   ======================================== */
+
+/* Only apply scroll animations if browser supports it */
+@supports (animation-timeline: view()) {
+  .scroll-animate {
+    animation: fade-in-up linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+  }
+
+  .scroll-animate-fade {
+    animation: fade-in linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+  }
+
+  .scroll-animate-scale {
+    animation: scale-in linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+  }
+
+  /* Stagger animations for card grids */
+  .scroll-animate-delay-1 {
+    animation: fade-in-up linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+  }
+
+  .scroll-animate-delay-2 {
+    animation: fade-in-up linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+  }
+
+  .scroll-animate-delay-3 {
+    animation: fade-in-up linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+  }
+
+  .scroll-animate-delay-4 {
+    animation: fade-in-up linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+  }
+
+  .scroll-animate-delay-5 {
+    animation: fade-in-up linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+  }
+}
+
+/* ========================================
+   Hero/Page Load Animations
+   ======================================== */
+
+/* Basic page load animations (non-scroll) */
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease-out both;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out both;
+}
+
+.animate-scale-in {
+  animation: scale-in 0.8s ease-out both;
+}
+
+/* Hero text stagger */
+.hero-text-stagger-1 {
+  animation: fade-in-up 0.8s ease-out 0.2s both;
+}
+
+.hero-text-stagger-2 {
+  animation: fade-in-up 0.8s ease-out 0.4s both;
+}
+
+.hero-text-stagger-3 {
+  animation: fade-in-up 0.8s ease-out 0.6s both;
+}
+
+.hero-scroll-indicator {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* ========================================
+   Hover Micro-Interactions
+   ======================================== */
+
+.hover-lift {
+  transition: transform 200ms ease-out, box-shadow 200ms ease-out;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.hover-scale {
+  transition: transform 200ms ease-out;
+}
+
+.hover-scale:hover {
+  transform: scale(1.02);
+}
+
+.hover-scale-sm {
+  transition: transform 200ms ease-out;
+}
+
+.hover-scale-sm:hover {
+  transform: scale(1.05);
+}
+
+.hover-glow {
+  transition: box-shadow 200ms ease-out;
+}
+
+.hover-glow:hover {
+  box-shadow: 0 0 20px rgba(217, 118, 66, 0.3); /* Terracotta glow */
+}
+
+.hover-glow-warm {
+  transition: box-shadow 200ms ease-out, transform 200ms ease-out;
+}
+
+.hover-glow-warm:hover {
+  box-shadow: 0 8px 30px rgba(217, 118, 66, 0.4); /* Stronger terracotta glow */
+  transform: translateY(-2px);
+}
+
+/* Button-specific hover effects */
+.btn-warm-hover {
+  transition: all 200ms ease-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-warm-hover::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: translate(-50%, -50%);
+  transition: width 600ms ease-out, height 600ms ease-out;
+}
+
+.btn-warm-hover:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+/* ========================================
+   Gradient Animations
+   ======================================== */
+
+.animated-gradient {
+  background-size: 200% 200%;
+  animation: gradient-shift 8s ease infinite;
+}
+
+/* Warm gradient backgrounds */
+.gradient-warm {
+  background: linear-gradient(
+    135deg,
+    hsl(18, 65%, 55%),   /* Terracotta */
+    hsl(41, 75%, 68%),   /* Amber */
+    hsl(28, 70%, 62%)    /* Golden */
+  );
+  background-size: 200% 200%;
+}
+
+.gradient-warm-subtle {
+  background: linear-gradient(
+    135deg,
+    hsl(40, 40%, 97%),   /* Cream */
+    hsl(35, 25%, 90%)    /* Warm gray */
+  );
+}
+
+/* ========================================
+   Parallax Effects
+   ======================================== */
+
+.parallax-slow {
+  transition: transform 0.1s ease-out;
+}
+
+/* Parallax photo effect for personal story */
+.parallax-photo {
+  transition: transform 0.3s ease-out;
+}
+
+.parallax-photo:hover {
+  transform: scale(1.05);
+}
+
+/* Applied via scroll-driven animation */
+@supports (animation-timeline: view()) {
+  .parallax-element {
+    animation: parallax-move linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 100%;
+  }
+
+  @keyframes parallax-move {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-30px);
+    }
+  }
+}
+
+/* ========================================
+   Floating Animation (for decorative elements)
+   ======================================== */
+
+.float-subtle {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Decorative elements with delayed fade-in */
+.decorative-fade-in {
+  animation: fade-in 1.2s ease-out 0.8s both;
+}
+
+/* Slow rotation for decorative elements */
+@keyframes slow-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-slow {
+  animation: slow-rotate 20s linear infinite;
+}
+
+/* ========================================
+   Link Animations
+   ======================================== */
+
+.link-underline {
+  position: relative;
+  text-decoration: none;
+}
+
+.link-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: hsl(var(--primary));
+  transition: width 200ms ease-out;
+}
+
+.link-underline:hover::after {
+  width: 100%;
+}
+
+/* ========================================
+   Accessibility: Reduced Motion Support
+   ======================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  /* Disable all animations and transitions */
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  /* Remove parallax */
+  .parallax-slow,
+  .parallax-element {
+    transform: none !important;
+  }
+
+  /* Remove floating */
+  .float-subtle {
+    animation: none !important;
+  }
+
+  /* Keep hover effects but make them instant */
+  .hover-lift:hover,
+  .hover-scale:hover {
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ========================================
+   Mobile Optimizations
+   ======================================== */
+
+@media (max-width: 768px) {
+  /* Simplify animations on mobile for better performance */
+  .animated-gradient {
+    animation: none;
+    background-size: 100% 100%;
+  }
+
+  /* Reduce parallax on mobile */
+  .parallax-slow,
+  .parallax-element {
+    transform: none !important;
+  }
+
+  /* Faster transitions on mobile */
+  .hover-lift,
+  .hover-scale,
+  .hover-glow {
+    transition-duration: 100ms;
+  }
+}

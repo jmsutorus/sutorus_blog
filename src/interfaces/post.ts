@@ -15,4 +15,5 @@ export type Post = {
   ogImage?: {
     url: string;
   };
+  featured?: boolean;
 };

@@ -1,0 +1,50 @@
+{
+  "reading": {
+    "title": "Currently Reading",
+    "book": "Wind and Truth",
+    "author": "Brandon Sanderson",
+    "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1724944713i/203578847.jpg",
+    "description": "The long-awaited explosive climax to the first arc of the #1 New York Times bestselling Stormlight Archive―the iconic epic fantasy masterpiece that has sold more than 10 million copies, from acclaimed bestselling author Brandon Sanderson."
+  },
+  "projects": [
+    {
+      "title": "Personal Blog Engine",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Built with Next.js, TypeScript, and Tailwind CSS. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "image": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1761927997/Elizabeth_Joseph_Day1-0308_byqbkr.jpg",
+      "link": "https://github.com/jmsutorus/sutorus_blog"
+    },
+    {
+      "title": "Task Management App",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+      "image": "https://placehold.co/600x400/F4C95D/FFFFFF.png",
+      "link": "https://example.com"
+    },
+    {
+      "title": "Weather Dashboard",
+      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Built using React and integrating with weather APIs. Sed quia consequuntur magni dolores eos qui ratione.",
+      "image": "https://placehold.co/600x400/D97642/FFFFFF.png",
+      "link": "https://example.com"
+    },
+    {
+      "title": "Photography",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Capturing moments and exploring composition through landscape and street photography. Duis aute irure dolor in reprehenderit.",
+      "image": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1761927999/DSCF2507_x9rptd.jpg",
+      "link": "https://www.instagram.com/josephsutorus/"
+    }
+  ],
+  "hobbies": [
+    
+    {
+      "title": "Gaming",
+      "description": "Excepteur sint occaecat cupidatat non proident. Enjoying narrative-driven games and competitive multiplayer experiences. Sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "image": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1761937647/Screenshot_39_rh5hfp.png",
+      "link": "https://steamcommunity.com/id/jmsutorus/"
+    },
+    {
+      "title": "Hiking",
+      "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem. Exploring trails and connecting with nature through weekend adventures. Totam rem aperiam eaque ipsa quae ab illo.",
+      "image": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1761927999/DSCF2346_kcvxor.jpg",
+      "link": "/backpacking"
+    }
+  ]
+}

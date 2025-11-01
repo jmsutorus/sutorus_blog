@@ -66,11 +66,16 @@ const config: Config = {
   		letterSpacing: {
   			tighter: '-.04em'
   		},
+  		lineHeight: {
+  			'relaxed': '1.7'
+  		},
   		fontSize: {
-  			'5xl': '2.5rem',
-  			'6xl': '2.75rem',
-  			'7xl': '4.5rem',
-  			'8xl': '6.25rem'
+  			'4xl': '2.25rem',   // 36px - Mobile hero
+  			'5xl': '3rem',      // 48px
+  			'6xl': '3.75rem',   // 60px - Tablet hero
+  			'7xl': '4.5rem',    // 72px
+  			'8xl': '6rem',      // 96px - Desktop hero
+  			'9xl': '8rem'       // 128px - Optional oversized
   		},
   		boxShadow: {
   			sm: '0 5px 10px rgba(0, 0, 0, 0.12)',
@@ -80,6 +85,16 @@ const config: Config = {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
+  		},
+  		keyframes: {
+  			shimmer: {
+  				'100%': {
+  					transform: 'translateX(100%)'
+  				}
+  			}
+  		},
+  		animation: {
+  			shimmer: 'shimmer 2s infinite'
   		}
   	}
   },
