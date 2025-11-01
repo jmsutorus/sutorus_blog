@@ -81,11 +81,12 @@ Beyond writing, I'm constantly exploring new creative pursuits, from gaming to r
 
               {/* Profile photo container with parallax effect */}
               <div className="relative aspect-square max-w-lg mx-auto overflow-hidden rounded-2xl shadow-2xl">
-                <div className="parallax-photo">
+                <div className="parallax-photo parallax-element">
                   <Image
                     src={imageUrl}
                     alt="Joseph Sutorus"
-                    fill
+                    width={800}
+                    height={800}
                     sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover"
                     priority

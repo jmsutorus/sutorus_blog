@@ -37,6 +37,11 @@ export function Nav() {
                 About
               </Button>
             </Link>
+            <Link href="/wedding">
+              <Button variant="ghost" size="sm">
+                Wedding
+              </Button>
+            </Link>
             <Link href="/projects">
               <Button variant="ghost" size="sm">
                 Projects

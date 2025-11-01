@@ -23,6 +23,7 @@ interface Hobby {
   title: string;
   description: string;
   image: string;
+  link: string;
 }
 
 interface CreativeData {
@@ -178,8 +179,11 @@ export function CreativeShowcase() {
 
             {/* Hobbies - 4 smaller cards */}
             {data.hobbies.map((hobby, index) => (
-              <div
+              <Link
                 key={hobby.title}
+                href={hobby.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 className={`group relative overflow-hidden rounded-2xl shadow-xl transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl scroll-animate-delay-${index + 5}`}
                 style={{ animationDelay: `${(index + 4) * 100}ms` }}
               >
@@ -204,7 +208,7 @@ export function CreativeShowcase() {
                     {hobby.description}
                   </p>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

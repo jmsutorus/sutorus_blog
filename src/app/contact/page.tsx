@@ -43,7 +43,7 @@ export default function ContactPage() {
                 Send me an email for collaborations or inquiries
               </p>
               <p className="text-primary font-medium">
-                contact@josephsutorus.com
+                joseph@sutorus.com
               </p>
             </a>
 
@@ -123,7 +123,7 @@ export default function ContactPage() {
           {/* Additional Info */}
           <div className="mt-16 p-8 bg-muted/30 rounded-2xl text-center">
             <h2 className="text-2xl font-bold text-foreground mb-4">
-              Based in the United States
+              Based in Texas
             </h2>
             <p className="text-lg text-foreground/80">
               Open to remote collaborations and projects worldwide.
