@@ -115,15 +115,15 @@ export function HeroEditorial({ featured }: HeroEditorialProps) {
                   <div className="inline-block px-3 py-1 text-xs font-semibold text-primary-foreground bg-primary rounded-full">
                     Featured
                   </div>
-                  <h3 className="text-2xl md:text-3xl font-bold text-white line-clamp-2 group-hover:text-secondary transition-colors">
+                  <h3 className="text-2xl md:text-3xl font-bold text-gray dark:text-white line-clamp-2 group-hover:text-secondary transition-colors">
                     {featured.title}
                   </h3>
                   {featured.description && (
-                    <p className="text-base text-gray-200 line-clamp-2">
+                    <p className="text-base text-gray dark:text-white line-clamp-2">
                       {featured.description}
                     </p>
                   )}
-                  <div className="flex items-center gap-2 text-sm text-gray-300">
+                  <div className="flex items-center gap-2 text-sm text-gray dark:text-gray-300">
                     {featured.category && (
                       <span className="font-medium">{featured.category}</span>
                     )}

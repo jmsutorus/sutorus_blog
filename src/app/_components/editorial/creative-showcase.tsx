@@ -153,13 +153,13 @@ export function CreativeShowcase() {
 
                 {/* Project content */}
                 <div className="absolute inset-0 flex flex-col justify-end p-6">
-                  <h4 className="text-xl font-bold text-white mb-2 group-hover:text-secondary transition-colors">
+                  <h4 className="text-xl font-bold text-gray dark:text-white mb-2 group-hover:text-secondary transition-colors">
                     {project.title}
                   </h4>
-                  <p className="text-sm text-gray-200 line-clamp-2 mb-3">
+                  <p className="text-sm text-gray dark:text-white line-clamp-2 mb-3">
                     {project.description}
                   </p>
-                  <div className="flex items-center gap-2 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                  <div className="flex items-center gap-2 text-gray dark:text-white opacity-0 group-hover:opacity-100 transition-opacity">
                     <span className="text-sm font-medium">View project</span>
                     <svg
                       className="w-4 h-4 transition-transform group-hover:translate-x-1"
@@ -201,10 +201,10 @@ export function CreativeShowcase() {
 
                 {/* Hobby content */}
                 <div className="absolute inset-0 flex flex-col justify-end p-6">
-                  <h4 className="text-xl font-bold text-white mb-2 group-hover:text-secondary transition-colors">
+                  <h4 className="text-xl font-bold text-gray dark:text-white mb-2 group-hover:text-secondary transition-colors">
                     {hobby.title}
                   </h4>
-                  <p className="text-sm text-gray-200 line-clamp-3 opacity-0 group-hover:opacity-100 transition-opacity">
+                  <p className="text-sm text-gray dark:text-white line-clamp-3 opacity-0 group-hover:opacity-100 transition-opacity">
                     {hobby.description}
                   </p>
                 </div>

@@ -157,6 +157,229 @@
         "Not many camping spot at Island Lake; arrive early or have backup locations",
         "Check trail conditions before going - snow can linger on north slopes until August"
       ]
+    },
+    {
+      "id": "yosemite-2024",
+      "featured": true,
+      "name": "Cathedral Lakes to Yosemite Valley",
+      "location": "Yosemite, California",
+      "dates": "August 3-9, 2024",
+      "hero": {
+        "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762021142/DSCF0428_xlzorx.jpg",
+        "alt": "Pristine alpine lake reflecting mountain peaks",
+        "width": 4898,
+        "height": 3265
+      },
+      "stats": {
+        "distance": "33.12 miles",
+        "elevation": "+4,718 ft",
+        "difficulty": "Difficult",
+        "duration": "3 days / 2 nights",
+        "season": "Late July - September",
+        "permits": "Reservation",
+        "routeUrl": "https://www.alltrails.com/trail/us/california/cathedral-lakes-to-clouds-rest-to-yosemite-valley"
+      },
+      "story": "This trail is a popular overnight backpacking trip that begins in Tuolumne Meadows and ends in Yosemite Valley. Begin by following the John Muir Trail(JMT)/Cathedral Lakes Trail to Cathedral Lakes. Continue along the JMT until you reach the Sunrise High Sierra Camp. From here, follow the Sunrise Lakes Trail to join the Clouds Rest Trail. Go up and over Clouds Rest, rejoin the JMT to the Mist Trail, and follow the Mist Trail down to Happy Isles. This trek features incredible views of Granite Domes, rugged mountain peaks, alpine lakes, and high elevation meadows. From the summit of Clouds Rest you will be rewarded with breathtaking views of Yosemite Valley and Half Dome.",
+      "itinerary": [
+        {
+          "day": 0,
+          "title": "Exploring the Valley",
+          "distance": "3 miles",
+          "elevation": "",
+          "highlights": [
+            "Well maintained trail"
+          ],
+          "description": "The first day started with a gentle climb through cathedral-like old-growth forest, where massive Douglas firs and western hemlocks created a cool, green canopy. After 3 miles, the trail steepened considerably as we gained the ridge, transitioning from deep forest to subalpine meadows. The wildflower display was spectacular - acres of lupine, paintbrush, and avalanche lilies carpeted the slopes. We took a long lunch break at Panorama Point (mile 5.5) where the full scope of the Alpine Lakes Wilderness spread before us. The final push to Upper Basin involved some rocky switchbacks, but the effort was rewarded with a stunning campsite beside a crystal-clear tarn. We set up camp with plenty of daylight remaining, allowing time to explore the basin and watch marmots emerge from their burrows as the afternoon sun warmed the rocks.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762022609/DSCF0286_cg5yqu.jpg",
+              "alt": "Starting the trail",
+              "width": 800,
+              "height": 600,
+              "caption": "View of the valley from the tunnel"
+            },
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762022611/DSCF0184_yppohf.jpg",
+              "alt": "View of bugs on trees",
+              "width": 800,
+              "height": 600,
+              "caption": "James checking out a felled tree"
+            }
+          ]
+        },
+        {
+          "day": 1,
+          "title": "Trailhead to Sunrise Camp",
+          "distance": "12 miles",
+          "elevation": "+2,400 ft",
+          "highlights": [
+            "Well maintained trail",
+            "Lakes to swin in"
+          ],
+          "description": "The first day started with a gentle climb through cathedral-like old-growth forest, where massive Douglas firs and western hemlocks created a cool, green canopy. After 3 miles, the trail steepened considerably as we gained the ridge, transitioning from deep forest to subalpine meadows. The wildflower display was spectacular - acres of lupine, paintbrush, and avalanche lilies carpeted the slopes. We took a long lunch break at Panorama Point (mile 5.5) where the full scope of the Alpine Lakes Wilderness spread before us. The final push to Upper Basin involved some rocky switchbacks, but the effort was rewarded with a stunning campsite beside a crystal-clear tarn. We set up camp with plenty of daylight remaining, allowing time to explore the basin and watch marmots emerge from their burrows as the afternoon sun warmed the rocks.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762021151/DSCF0418_qo9rqy.jpg",
+              "alt": "Starting the trail",
+              "width": 800,
+              "height": 600,
+              "caption": "Hiking the trail"
+            },
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762021149/DSCF0385_yxdfds.jpg",
+              "alt": "View of bugs on trees",
+              "width": 800,
+              "height": 600,
+              "caption": "Posing at the first lake we swam in"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Traveling to Half Dome",
+          "distance": "17.5 miles",
+          "elevation": "+2,800 ft / -4,200 ft",
+          "highlights": [
+            "Amazing campsite at Island Lake"
+          ],
+          "description": "Day two was the most challenging and rewarding of the trip. We broke camp early to tackle the exposed ridge section before afternoon storms threatened. The climb out of Upper Basin was steep and relentless, gaining 1,800 feet in less than 2 miles over loose talus and granite slabs. Once on the ridgeline, the trail became more of a route-finding exercise, with cairns marking the way across open rock. The views were absolutely worth the effort - Mount Rainier dominated the southern horizon while glaciated peaks stretched endlessly to the north. We encountered a family of mountain goats picking their way across impossibly steep terrain. The descent to Granite Ridge Camp required careful foot placement on loose rock, but we arrived at our campsite by mid-afternoon. This elevated camp offered incredible sunset views and we watched the alpenglow paint the peaks pink and orange as daylight faded.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762021140/DSCF0629_dlnzdm.jpg",
+              "alt": "Titcomb basin",
+              "width": 800,
+              "height": 600,
+              "caption": "Taking a swim"
+            },
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762021163/DSCF0700_pb0rgt.jpg",
+              "alt": "Titcomb basin",
+              "width": 800,
+              "height": 600,
+              "caption": "Surviving the burned section of the trail"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Summiting and Leaving",
+          "distance": "17.5 miles",
+          "elevation": "+2,800 ft / -4,200 ft",
+          "highlights": [
+            "Amazing campsite at Island Lake"
+          ],
+          "description": "Day two was the most challenging and rewarding of the trip. We broke camp early to tackle the exposed ridge section before afternoon storms threatened. The climb out of Upper Basin was steep and relentless, gaining 1,800 feet in less than 2 miles over loose talus and granite slabs. Once on the ridgeline, the trail became more of a route-finding exercise, with cairns marking the way across open rock. The views were absolutely worth the effort - Mount Rainier dominated the southern horizon while glaciated peaks stretched endlessly to the north. We encountered a family of mountain goats picking their way across impossibly steep terrain. The descent to Granite Ridge Camp required careful foot placement on loose rock, but we arrived at our campsite by mid-afternoon. This elevated camp offered incredible sunset views and we watched the alpenglow paint the peaks pink and orange as daylight faded.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762021160/DSCF0737_w3tmxs.jpg",
+              "alt": "Titcomb basin",
+              "width": 800,
+              "height": 600,
+              "caption": "Getting ready to summit"
+            },
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762021162/DSCF0798_1_vusj7n.jpg",
+              "alt": "Titcomb basin",
+              "width": 800,
+              "height": 600,
+              "caption": "Finished the hike"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762022471/DSCF0329_suiuqe.jpg",
+          "alt": "Mountain peak reflected in still alpine lake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Previewing what we will be hiking"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762022608/DSCF0209_n6nlzi.jpg",
+          "alt": "Mountain peak reflected in still alpine lake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Elizabeth posing at lunch"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762022915/DSCF0313_oeupdo.jpg",
+          "alt": "Mountain peak reflected in still alpine lake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "At Glacier Point"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762022914/DSCF0335_oxoibq.jpg",
+          "alt": "Mountain peak reflected in still alpine lake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Aurora in front of Half Dome"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762021144/DSCF0683_kx0aiy.jpg",
+          "alt": "Mountain peak reflected in still alpine lake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "View of the burned section"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762021147/DSCF0349_cmesmn.jpg",
+          "alt": "Mountain peak reflected in still alpine lake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Trail was really hot"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762021139/DSCF0493_rj3qoy.jpg",
+          "alt": "Mountain peak reflected in still alpine lake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Campsite views"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762021134/DSCF0589_ngnm7t.jpg",
+          "alt": "Mountain peak reflected in still alpine lake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Marmot"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762021157/DSCF0789_ebleiz.jpg",
+          "alt": "Mountain peak reflected in still alpine lake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Waterfall"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762021162/DSCF0753_fyvwnu.jpg",
+          "alt": "Mountain peak reflected in still alpine lake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Another waterfall"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762021162/DSCF0768_qmk05n.jpg",
+          "alt": "Mountain peak reflected in still alpine lake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Emerald lake"
+        }
+      ],
+      "gearHighlights": [
+        "40L ultralight backpack worked perfectly for 3 days",
+        "Quilted sleeping bag kept me warm down to 35°F",
+        "Trekking poles essential for steep descents",
+        "Water filter processed crystal-clear alpine water effortlessly",
+        "Lightweight tarp provided flexibility in camp placement"
+      ],
+      "tips": [
+        "Start Day 2 early to complete ridge traverse before afternoon storms",
+        "Water is abundant throughout - no need to carry more than 1L between sources",
+        "Mosquitoes can be intense in July; bring head net and repellent",
+        "Not many camping spot at Island Lake; arrive early or have backup locations",
+        "Check trail conditions before going - snow can linger on north slopes until August"
+      ]
     }
   ],
   "gear": {

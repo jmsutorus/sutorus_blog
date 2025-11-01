@@ -83,7 +83,7 @@ export function FeaturedWriting({ posts }: FeaturedWritingProps) {
                     )}
 
                     {/* Title */}
-                    <h3 className={`font-bold text-white mb-2 group-hover:text-secondary transition-colors ${
+                    <h3 className={`font-bold text-gray dark:text-white mb-2 group-hover:text-secondary transition-colors ${
                       isLarge ? 'text-3xl md:text-4xl lg:text-5xl' : 'text-xl md:text-2xl'
                     } ${isLarge ? 'line-clamp-3' : 'line-clamp-2'}`}>
                       {post.title}
@@ -91,13 +91,13 @@ export function FeaturedWriting({ posts }: FeaturedWritingProps) {
 
                     {/* Description (only show on large card) */}
                     {isLarge && post.description && (
-                      <p className="text-gray-200 text-lg mb-4 line-clamp-2">
+                      <p className="text-gray text-lg mb-4 line-clamp-2 dark:text-white">
                         {post.description}
                       </p>
                     )}
 
                     {/* Meta information */}
-                    <div className="flex items-center gap-3 text-sm text-gray-300">
+                    <div className="flex items-center gap-3 text-sm text-gray dark:text-white">
                       {/* Genre */}
                       {post.genre && (
                         <span className="font-medium">
@@ -128,7 +128,7 @@ export function FeaturedWriting({ posts }: FeaturedWritingProps) {
                     </div>
 
                     {/* Hover indicator */}
-                    <div className="mt-4 flex items-center gap-2 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="mt-4 flex items-center gap-2 text-gray dark:text-white opacity-0 group-hover:opacity-100 transition-opacity">
                       <span className="text-sm font-medium">Read more</span>
                       <svg
                         className="w-4 h-4 transition-transform group-hover:translate-x-1"
