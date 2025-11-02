@@ -25,11 +25,10 @@ export async function generateStaticParams() {
 }
 
 // Generate metadata for each trip
-export async function generateMetadata({
-  params,
-}: {
-  params: { slug: string };
+export async function generateMetadata(props: {
+  params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
+  const params = await props.params;
   const filePath = path.join(process.cwd(), 'public/data/backpacking.json');
 
   try {
@@ -67,11 +66,10 @@ export async function generateMetadata({
   }
 }
 
-export default async function TripPage({
-  params,
-}: {
-  params: { slug: string };
+export default async function TripPage(props: {
+  params: Promise<{ slug: string }>;
 }) {
+  const params = await props.params;
   const filePath = path.join(process.cwd(), 'public/data/backpacking.json');
 
   let data: BackpackingData;
