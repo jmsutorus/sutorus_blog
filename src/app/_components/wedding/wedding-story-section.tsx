@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { WeddingStorySection as WeddingStorySectionType } from '@/types/wedding';
 import Container from '@/app/_components/container';
+import { getCloudinaryBlurDataUrl } from '@/lib/cloudinary/getBlurDataUrl';
 
 interface WeddingStorySectionProps {
   content: string;
@@ -54,6 +55,8 @@ export function WeddingStorySection({
               alt={image.alt}
               width={image.width}
               height={image.height}
+              placeholder="blur"
+              blurDataURL={image.blurDataURL || getCloudinaryBlurDataUrl(image.url)}
               className="object-cover w-full h-full"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />

@@ -43,7 +43,7 @@ export default function ContactPage() {
                 Send me an email for collaborations or inquiries
               </p>
               <p className="text-primary font-medium">
-                joseph@sutorus.com
+                contact@sutorus.com
               </p>
             </a>
 

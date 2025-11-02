@@ -13,6 +13,7 @@ export interface BackpackingImage {
   width: number;
   height: number;
   caption?: string;
+  blurDataURL?: string;
 }
 
 /**

@@ -5,10 +5,11 @@
     "date": "October 24, 2025",
     "location": "Paniolo Ranch, Boerne",
     "image": {
-      "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1761940540/Elizabeth_Joseph_Day1-0461_bvfelo.jpg",
+      "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/Elizabeth_Joseph_Day1-0461_bvfelo",
       "alt": "Joseph and Elizabeth posing for sunset photos",
       "width": 1920,
-      "height": 1080
+      "height": 1080,
+      "blurDataURL": "https://res.cloudinary.com/dkwuzhlyz/image/upload/e_blur:600/Elizabeth_Joseph_Day1-0461_bvfelo"
     }
   },
   "story": [

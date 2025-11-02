@@ -65,7 +65,7 @@ export function PostHeader({ title, poster, date, rating, year, length, genre, c
                   📅
                 </span>
                 <div className="flex-1">
-                  <div className="text-sm text-muted-foreground">Date</div>
+                  <div className="text-sm text-muted-foreground">Date Completed</div>
                   <div className="font-medium">
                     <DateFormatter dateString={date} />
                   </div>
@@ -78,7 +78,7 @@ export function PostHeader({ title, poster, date, rating, year, length, genre, c
                   🗓️
                 </span>
                 <div className="flex-1">
-                  <div className="text-sm text-muted-foreground">Year</div>
+                  <div className="text-sm text-muted-foreground">Released</div>
                   <div className="font-medium">
                     <DateFormatter dateString={year} />
                   </div>

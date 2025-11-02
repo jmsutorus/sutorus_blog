@@ -18,6 +18,8 @@ export interface WeddingImage {
   height: number;
   /** Optional caption displayed on hover or in modal */
   caption?: string;
+  /** Optional blur placeholder data URL for smooth loading */
+  blurDataURL?: string;
 }
 
 /**

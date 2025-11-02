@@ -4,7 +4,7 @@ released: 2022-02-28T00:00:00.000Z
 genre:
   - Fiction
 title: The Butcher's Masquerade
-poster: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1734202962i/60233239.jpg'
+poster: 'https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1734202962i/60233239.jpg'
 authors: '[[Matt Dinniman]]'
 description: 'NEW YORK TIMES BESTSELLER • Carl and Princess Donut refuse to be prey in the fifth book in the Dungeon Crawler Carl series—now with bonus material exclusive to this print edition! Attention. Attention. The gates are down. The hunters are loose. Run, Run, Run. A lush jungle teeming with danger. Savage dinosaurs seeking blood. A fallen princess intent on vengeance. A mysterious, end-of-floor celebration for the top crawlers, dubbed “The Butcher’s Masquerade.” But that’s not all. Just when Coast Guard vet Carl and his ex-girlfriend’s cat, Princess Donut, think they’ve seen it all as they compete to survive in the galaxy’s most popular game show, the latest dungeon level introduces a terrible new threat. The sixth floor. The Hunting Grounds. As the remaining crawlers battle for their lives, outside tourists are finally allowed to enter the game, and they are ready to hunt. Among them is Vrah, a famed and veteran hunter, intent on collecting the biggest trophy of her career. But her prey is far from harmless, and this season they are fighting back. Welcome, crawlers. Welcome to the sixth floor of the dungeon.'
 tags:

@@ -1,5 +1,7 @@
 import Footer from "@/app/_components/footer";
 import { Nav } from "@/app/_components/nav";
+import { SearchProvider } from "@/app/_components/search-provider";
+import { getSearchIndex } from "@/lib/search/getSearchIndex";
 import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -54,11 +56,13 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const searchIndex = await getSearchIndex();
+
   return (
     <html lang="en">
       <head>
@@ -97,9 +101,11 @@ export default function RootLayout({
       <body
         className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}
       >
-        <Nav />
-        <div className="min-h-screen">{children}</div>
-        <Footer />
+        <SearchProvider searchIndex={searchIndex}>
+          <Nav />
+          <div className="min-h-screen">{children}</div>
+          <Footer />
+        </SearchProvider>
       </body>
     </html>
   );

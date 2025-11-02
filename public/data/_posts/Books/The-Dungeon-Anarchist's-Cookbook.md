@@ -7,7 +7,7 @@ genre:
   - '[[Fiction]]'
   - '[[Science Fiction]]'
 title: The Dungeon Anarchist's Cookbook
-poster: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1612814290i/57001971.jpg'
+poster: 'https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1612814290i/57001971.jpg'
 authors: '[[Matt Dinniman]]'
 description: The top ten list is populated. The sponsorship program is open. The difficulty is ramping up. The first three floors were nothing compared to what Carl and Donut now face.
 tags:
@@ -19,7 +19,7 @@ rating: 7
 finished: true
 Series: '[[Dungeon Crawler Carl Series]]'
 category: Books
-length: ''
+length: '25 hours'
 ---
 
 ### Setting and Premise

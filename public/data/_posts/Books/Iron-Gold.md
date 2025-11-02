@@ -4,7 +4,7 @@ released: null
 genre:
   - Fiction
 title: Iron Gold
-poster: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F81rAGURQpCL._SL1500_.jpg&f=1&nofb=1&ipt=7001d2f2114dc356935007aea4ab2e2d8f1b3fdec104fd0ca1af17e1b9638450'
+poster: 'https://m.media-amazon.com/images/I/81o8duFtBYL._AC_UF1000,1000_QL80_.jpg'
 authors: '[[Pierce Brown]]'
 description: 'A decade ago, Darrow was the hero of the revolution he believed would break the chains of the Society, and abolish the color-coded caste system. But the Rising has shattered everything, and brought endless war. New foes emerge to threaten what has been earned, and throughout the worlds other destinies entwine with Darrow''s to change his fate forever. A young Red girl flees tragedy in her refugee camp, and achieves for herself a new life she could never have imagined. An ex-soldier broken by grief is forced to steal the most valuable thing in the galaxy -- or pay with his life. And Lysander au Lune, the heir in exile to the Sovereign, wanders the stars with his mentor, Cassius, haunted by the loss of the world that Darrow transformed, and dreaming of what will rise from its ashes.'
 tags:

@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { DayItinerary } from '@/types/backpacking';
 import { Badge } from '@/components/ui/badge';
+import { getCloudinaryBlurDataUrl } from '@/lib/cloudinary/getBlurDataUrl';
 
 interface DaySectionProps {
   day: DayItinerary;
@@ -47,6 +48,8 @@ export function DaySection({ day }: DaySectionProps) {
                 src={image.url}
                 alt={image.alt}
                 fill
+                placeholder="blur"
+                blurDataURL={image.blurDataURL || getCloudinaryBlurDataUrl(image.url)}
                 className="object-cover"
                 sizes="(max-width: 640px) 100vw, 50vw"
               />

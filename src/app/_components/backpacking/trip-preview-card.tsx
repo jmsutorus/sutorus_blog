@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { BackpackingTrip } from '@/types/backpacking';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { getCloudinaryBlurDataUrl } from '@/lib/cloudinary/getBlurDataUrl';
 
 interface TripPreviewCardProps {
   trip: BackpackingTrip;
@@ -32,6 +33,8 @@ export function TripPreviewCard({ trip }: TripPreviewCardProps) {
             src={trip.hero.url}
             alt={trip.hero.alt}
             fill
+            placeholder="blur"
+            blurDataURL={trip.hero.blurDataURL || getCloudinaryBlurDataUrl(trip.hero.url)}
             className="object-cover transition-transform duration-300 group-hover:scale-105"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />

@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { BackpackingImage } from '@/types/backpacking';
+import { getCloudinaryBlurDataUrl } from '@/lib/cloudinary/getBlurDataUrl';
 import { useEffect, useState } from 'react';
 
 interface BackpackingHeroProps {
@@ -28,6 +29,8 @@ export function BackpackingHero({ hero }: BackpackingHeroProps) {
           alt={hero.image.alt}
           fill
           priority
+          placeholder="blur"
+          blurDataURL={hero.image.blurDataURL || getCloudinaryBlurDataUrl(hero.image.url)}
           className="object-cover"
           sizes="100vw"
         />

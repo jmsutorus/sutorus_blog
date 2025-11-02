@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { WeddingHero as WeddingHeroType } from '@/types/wedding';
+import { getCloudinaryBlurDataUrl } from '@/lib/cloudinary/getBlurDataUrl';
 
 interface WeddingHeroProps {
   hero: WeddingHeroType;
@@ -14,6 +15,8 @@ export function WeddingHero({ hero }: WeddingHeroProps) {
         alt={hero.image.alt}
         fill
         priority
+        placeholder="blur"
+        blurDataURL={hero.image.blurDataURL || getCloudinaryBlurDataUrl(hero.image.url)}
         className="object-cover"
         sizes="100vw"
       />

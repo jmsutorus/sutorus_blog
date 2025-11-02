@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { WeddingImage } from '@/types/wedding';
 import { ImageModal } from '@/app/_components/shared/image-modal';
 import Container from '@/app/_components/container';
+import { getCloudinaryBlurDataUrl } from '@/lib/cloudinary/getBlurDataUrl';
 
 interface WeddingGalleryProps {
   images: WeddingImage[];
@@ -69,6 +70,8 @@ export function WeddingGallery({ images }: WeddingGalleryProps) {
                   width={image.width}
                   height={image.height}
                   loading={index < 8 ? 'eager' : 'lazy'}
+                  placeholder="blur"
+                  blurDataURL={image.blurDataURL || getCloudinaryBlurDataUrl(image.url)}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
                 />

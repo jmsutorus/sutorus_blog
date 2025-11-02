@@ -4,7 +4,7 @@ released: 2024-11-03T00:00:00.000Z
 genre:
   - Fiction
 title: This Inevitable Ruin
-poster: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1721753342i/216017751.jpg'
+poster: 'https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1721753342i/216017751.jpg'
 authors: '[[Matt Dinniman]]'
 description: 'NEW YORK TIMES BESTSELLER • Carl and Princess Donut are ready to battle it out in the epic seventh book in the Dungeon Crawler Carl series—now with bonus material exclusive to this print edition! The ninth floor. Faction Wars. Nine armies enter, led by rich and powerful aliens from across the galaxy. The winning team must capture and hold the castle at the very center of the battlefield. Strategy, alliances, pitched battles, betrayal . . . It all makes for great fun and even greater television. But thanks to Carl, Donut, and Katia, this season is different. For the first time ever, the crawlers have their own army. The NPCs, who are normally used as nothing but cannon fodder, have become fully self-aware and have formed an unprecedented team of their own. And it’s not just the crawlers who are at risk this Faction Wars. Any combatant who dies on the battlefield stays in the ground. For Donut and Katia, the stakes are even higher. No matter who wins the war, only one of them will be allowed to leave this level. If they all want to survive, they’re going to need a little help from a veteran or two. This is it. This is what they’ve been fighting toward. This is war.'
 tags:

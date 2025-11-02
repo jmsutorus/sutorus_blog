@@ -4,8 +4,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ThemeSwitcher } from "./theme-switcher";
 import { Separator } from "@/components/ui/separator";
+import { Search } from "lucide-react";
+import { useSearch } from "./search-provider";
 
 export function Nav() {
+  const { setOpen } = useSearch();
+
   return (
     <nav className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto px-0 sm:px-5">
@@ -52,6 +56,22 @@ export function Nav() {
                 Contact
               </Button>
             </Link>
+
+            <Separator orientation="vertical" className="h-6 mx-2" />
+
+            {/* Search Button */}
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => setOpen(true)}
+              className="gap-2"
+            >
+              <Search className="h-4 w-4" />
+              <span className="hidden sm:inline">Search</span>
+              <kbd className="hidden sm:inline-flex pointer-events-none h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100">
+                <span className="text-xs">⌘</span>K
+              </kbd>
+            </Button>
 
             <Separator orientation="vertical" className="h-6 mx-2" />
 

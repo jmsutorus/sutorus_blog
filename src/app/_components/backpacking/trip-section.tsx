@@ -7,6 +7,7 @@ import { StatsBox } from './stats-box';
 import { DaySection } from './day-section';
 import { ImageModal } from '@/app/_components/shared/image-modal';
 import { SocialShare } from './social-share';
+import { getCloudinaryBlurDataUrl } from '@/lib/cloudinary/getBlurDataUrl';
 
 interface TripSectionProps {
   trip: BackpackingTrip;
@@ -38,6 +39,8 @@ export function TripSection({ trip }: TripSectionProps) {
             src={trip.hero.url}
             alt={trip.hero.alt}
             fill
+            placeholder="blur"
+            blurDataURL={trip.hero.blurDataURL || getCloudinaryBlurDataUrl(trip.hero.url)}
             className="object-cover"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1200px"
           />
@@ -86,6 +89,8 @@ export function TripSection({ trip }: TripSectionProps) {
                       src={photo.url}
                       alt={photo.alt}
                       fill
+                      placeholder="blur"
+                      blurDataURL={photo.blurDataURL || getCloudinaryBlurDataUrl(photo.url)}
                       className="object-cover transition-transform duration-300 group-hover:scale-110"
                       sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
                     />
