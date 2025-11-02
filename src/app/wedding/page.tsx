@@ -10,9 +10,9 @@ import { Metadata } from 'next';
 export async function generateMetadata(): Promise<Metadata> {
   return {
     title: 'Our Wedding - Joseph Sutorus',
-    description: 'Celebrating our special day with family and friends. A collection of moments from Joseph and Sarah\'s wedding celebration.',
+    description: 'Celebrating our special day with family and friends. A collection of moments from Joseph and Elizabeth\'s wedding celebration.',
     openGraph: {
-      title: 'Our Wedding - Joseph & Sarah',
+      title: 'Our Wedding - Joseph & Elizabeth',
       description: 'Celebrating our special day',
       type: 'website',
       images: [
@@ -20,13 +20,13 @@ export async function generateMetadata(): Promise<Metadata> {
           url: '/wedding-og-image.jpg',
           width: 1200,
           height: 630,
-          alt: 'Joseph and Sarah\'s Wedding',
+          alt: 'Joseph and Elizabeth\'s Wedding',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Our Wedding - Joseph & Sarah',
+      title: 'Our Wedding - Joseph & Elizabeth',
       description: 'Celebrating our special day',
       images: ['/wedding-og-image.jpg'],
     },
