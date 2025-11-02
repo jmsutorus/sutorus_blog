@@ -3,7 +3,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import { join } from "path";
 
-const postsDirectory = "C:/Users/jmsut/Documents/Github/obsidian/blog_posts";
+const postsDirectory = join(process.cwd(), "public/data/_posts");
 
 /**
  * Recursively find all markdown files in a directory up to a specified depth

@@ -380,6 +380,328 @@
         "Not many camping spot at Island Lake; arrive early or have backup locations",
         "Check trail conditions before going - snow can linger on north slopes until August"
       ]
+    },
+    {
+      "id": "sawtooths-2024",
+      "featured": true,
+      "name": "Alice-Toxaway Loop",
+      "location": "Sawtooths, Idaho",
+      "dates": "July 9-11, 2024",
+      "hero": {
+        "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762055711/DSCF1006_ofdulh.jpg",
+        "alt": "Pristine alpine lake reflecting mountain peaks",
+        "width": 4898,
+        "height": 3265
+      },
+      "stats": {
+        "distance": "20.20 miles",
+        "elevation": "+3,317 ft",
+        "difficulty": "Easy",
+        "duration": "3 days / 2 nights",
+        "season": "Late July - September",
+        "permits": "None",
+        "routeUrl": "https://www.alltrails.com/trail/us/idaho/tin-cup-hiker"
+      },
+      "story": "This backpacking loop, popularly known as the Alice-Toxaway Loop, is an amazing trail through Sawtooth National Recreation Area and Sawtooth Wilderness Area in central Idaho. It offers beautiful natural features at nearly every turn. From craggy sawtooth peaks to numerous alpine lakes - Alice Lake, Twin Lakes, Toxaway Lake and Farley Lake - the trail takes you through dense forests with all manner of animals. ",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Trailhead to Farley Lake",
+          "distance": "7 miles",
+          "elevation": "+1,295 ft",
+          "highlights": [
+            "Well maintained trail"
+          ],
+          "description": "The first day started with a gentle climb through cathedral-like old-growth forest, where massive Douglas firs and western hemlocks created a cool, green canopy. After 3 miles, the trail steepened considerably as we gained the ridge, transitioning from deep forest to subalpine meadows. The wildflower display was spectacular - acres of lupine, paintbrush, and avalanche lilies carpeted the slopes. We took a long lunch break at Panorama Point (mile 5.5) where the full scope of the Alpine Lakes Wilderness spread before us. The final push to Upper Basin involved some rocky switchbacks, but the effort was rewarded with a stunning campsite beside a crystal-clear tarn. We set up camp with plenty of daylight remaining, allowing time to explore the basin and watch marmots emerge from their burrows as the afternoon sun warmed the rocks.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762055816/DSCF0903_rz2k85.jpg",
+              "alt": "Starting the trail",
+              "width": 4898,
+              "height": 3265,
+              "caption": "First night campsite"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Hiking to Twin Lakes",
+          "distance": "7 miles",
+          "elevation": "+1,295 ft",
+          "highlights": [
+            "Well maintained trail"
+          ],
+          "description": "The first day started with a gentle climb through cathedral-like old-growth forest, where massive Douglas firs and western hemlocks created a cool, green canopy. After 3 miles, the trail steepened considerably as we gained the ridge, transitioning from deep forest to subalpine meadows. The wildflower display was spectacular - acres of lupine, paintbrush, and avalanche lilies carpeted the slopes. We took a long lunch break at Panorama Point (mile 5.5) where the full scope of the Alpine Lakes Wilderness spread before us. The final push to Upper Basin involved some rocky switchbacks, but the effort was rewarded with a stunning campsite beside a crystal-clear tarn. We set up camp with plenty of daylight remaining, allowing time to explore the basin and watch marmots emerge from their burrows as the afternoon sun warmed the rocks.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762055959/DSCF0996_1_vzrafn.jpg",
+              "alt": "Starting the trail",
+              "width": 4898,
+              "height": 3265,
+              "caption": "Looking down at Twin Lakes"
+            },
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762056520/DSCF1026_fjr9dw.jpg",
+              "alt": "Starting the trail",
+              "width": 4898,
+              "height": 3265,
+              "caption": "Night two camp site"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Hiking Out",
+          "distance": "4 miles",
+          "elevation": "-2,000 ft",
+          "highlights": [
+            "Well maintained trail"
+          ],
+          "description": "The first day started with a gentle climb through cathedral-like old-growth forest, where massive Douglas firs and western hemlocks created a cool, green canopy. After 3 miles, the trail steepened considerably as we gained the ridge, transitioning from deep forest to subalpine meadows. The wildflower display was spectacular - acres of lupine, paintbrush, and avalanche lilies carpeted the slopes. We took a long lunch break at Panorama Point (mile 5.5) where the full scope of the Alpine Lakes Wilderness spread before us. The final push to Upper Basin involved some rocky switchbacks, but the effort was rewarded with a stunning campsite beside a crystal-clear tarn. We set up camp with plenty of daylight remaining, allowing time to explore the basin and watch marmots emerge from their burrows as the afternoon sun warmed the rocks.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762056593/DSCF1063_rxudtd.jpg",
+              "alt": "Starting the trail",
+              "width": 4898,
+              "height": 3265,
+              "caption": "Seeing our car"
+            },
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762056595/DSCF1087_xlhjzu.jpg",
+              "alt": "Starting the trail",
+              "width": 4898,
+              "height": 3265,
+              "caption": "Trail sign"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762055958/DSCF0944_1_agbkbg.jpg",
+          "alt": "Mountain peak reflected in still alpine lake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "One of the lakes on the trail"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762055960/DSCF0973_1_sx25d8.jpg",
+          "alt": "Mountain peak reflected in still alpine lake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Turcoise alpine lake"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762055955/DSCF1041_frl5es.jpg",
+          "alt": "Mountain peak reflected in still alpine lake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Photo of twin lakes"
+        }
+      ],
+      "gearHighlights": [
+        "40L ultralight backpack worked perfectly for 3 days",
+        "Quilted sleeping bag kept me warm down to 35°F",
+        "Trekking poles essential for steep descents",
+        "Water filter processed crystal-clear alpine water effortlessly",
+        "Lightweight tarp provided flexibility in camp placement"
+      ],
+      "tips": [
+        "Start Day 2 early to complete ridge traverse before afternoon storms",
+        "Water is abundant throughout - no need to carry more than 1L between sources",
+        "Mosquitoes can be intense in July; bring head net and repellent",
+        "Not many camping spot at Island Lake; arrive early or have backup locations",
+        "Check trail conditions before going - snow can linger on north slopes until August"
+      ]
+    },
+
+
+    {
+      "id": "olympic-2023",
+      "featured": false,
+      "name": "Seven Lakes Basin Loop",
+      "location": "Olympic National Park, Washington",
+      "dates": "July 3-7, 2024",
+      "hero": {
+        "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762057479/DSCF6744_onf6vn.jpg",
+        "alt": "Pristine alpine lake reflecting mountain peaks",
+        "width": 6240,
+        "height": 4160
+      },
+      "stats": {
+        "distance": "21.06 miles",
+        "elevation": "+3,317 ft",
+        "difficulty": "Easy",
+        "duration": "3 days / 2 nights",
+        "season": "Late July - September",
+        "permits": "National Park Permit",
+        "routeUrl": "https://www.alltrails.com/trail/us/washington/high-divide-and-seven-lakes-basin"
+      },
+      "story": "This backpacking loop, popularly known as the Alice-Toxaway Loop, is an amazing trail through Sawtooth National Recreation Area and Sawtooth Wilderness Area in central Idaho. It offers beautiful natural features at nearly every turn. From craggy sawtooth peaks to numerous alpine lakes - Alice Lake, Twin Lakes, Toxaway Lake and Farley Lake - the trail takes you through dense forests with all manner of animals. ",
+      "itinerary": [
+        {
+          "day": 0,
+          "title": "Arrived on the Olympic Peninsula",
+          "distance": "",
+          "elevation": "",
+          "highlights": [
+            "Well maintained trail"
+          ],
+          "description": "The first day started with a gentle climb through cathedral-like old-growth forest, where massive Douglas firs and western hemlocks created a cool, green canopy. After 3 miles, the trail steepened considerably as we gained the ridge, transitioning from deep forest to subalpine meadows. The wildflower display was spectacular - acres of lupine, paintbrush, and avalanche lilies carpeted the slopes. We took a long lunch break at Panorama Point (mile 5.5) where the full scope of the Alpine Lakes Wilderness spread before us. The final push to Upper Basin involved some rocky switchbacks, but the effort was rewarded with a stunning campsite beside a crystal-clear tarn. We set up camp with plenty of daylight remaining, allowing time to explore the basin and watch marmots emerge from their burrows as the afternoon sun warmed the rocks.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762057466/DSCF6684_h8svyv.jpg",
+              "alt": "Starting the trail",
+              "width": 6240,
+              "height": 4160,
+              "caption": "Cresant Lake"
+            }
+          ]
+        },
+        {
+          "day": 1,
+          "title": "Getting started",
+          "distance": "7 miles",
+          "elevation": "+1,295 ft",
+          "highlights": [
+            "Well maintained trail"
+          ],
+          "description": "The first day started with a gentle climb through cathedral-like old-growth forest, where massive Douglas firs and western hemlocks created a cool, green canopy. After 3 miles, the trail steepened considerably as we gained the ridge, transitioning from deep forest to subalpine meadows. The wildflower display was spectacular - acres of lupine, paintbrush, and avalanche lilies carpeted the slopes. We took a long lunch break at Panorama Point (mile 5.5) where the full scope of the Alpine Lakes Wilderness spread before us. The final push to Upper Basin involved some rocky switchbacks, but the effort was rewarded with a stunning campsite beside a crystal-clear tarn. We set up camp with plenty of daylight remaining, allowing time to explore the basin and watch marmots emerge from their burrows as the afternoon sun warmed the rocks.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762057536/DSCF6719_tzzdxs.jpg",
+              "alt": "Starting the trail",
+              "width": 4898,
+              "height": 3265,
+              "caption": "Camp site"
+            },
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762057581/DSCF6704_wvpuu1.jpg",
+              "alt": "Starting the trail",
+              "width": 4898,
+              "height": 3265,
+              "caption": "Taking a break"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "First Views",
+          "distance": "4 miles",
+          "elevation": "-2,000 ft",
+          "highlights": [
+            "Well maintained trail"
+          ],
+          "description": "The first day started with a gentle climb through cathedral-like old-growth forest, where massive Douglas firs and western hemlocks created a cool, green canopy. After 3 miles, the trail steepened considerably as we gained the ridge, transitioning from deep forest to subalpine meadows. The wildflower display was spectacular - acres of lupine, paintbrush, and avalanche lilies carpeted the slopes. We took a long lunch break at Panorama Point (mile 5.5) where the full scope of the Alpine Lakes Wilderness spread before us. The final push to Upper Basin involved some rocky switchbacks, but the effort was rewarded with a stunning campsite beside a crystal-clear tarn. We set up camp with plenty of daylight remaining, allowing time to explore the basin and watch marmots emerge from their burrows as the afternoon sun warmed the rocks.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762057526/DSCF6723_odulwq.jpg",
+              "alt": "Starting the trail",
+              "width": 4898,
+              "height": 3265,
+              "caption": "First Views"
+            },
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762057492/DSCF6741_bj7ub8.jpg",
+              "alt": "Starting the trail",
+              "width": 4898,
+              "height": 3265,
+              "caption": "Lone toliet"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Leaving",
+          "distance": "4 miles",
+          "elevation": "-2,000 ft",
+          "highlights": [
+            "Well maintained trail"
+          ],
+          "description": "The first day started with a gentle climb through cathedral-like old-growth forest, where massive Douglas firs and western hemlocks created a cool, green canopy. After 3 miles, the trail steepened considerably as we gained the ridge, transitioning from deep forest to subalpine meadows. The wildflower display was spectacular - acres of lupine, paintbrush, and avalanche lilies carpeted the slopes. We took a long lunch break at Panorama Point (mile 5.5) where the full scope of the Alpine Lakes Wilderness spread before us. The final push to Upper Basin involved some rocky switchbacks, but the effort was rewarded with a stunning campsite beside a crystal-clear tarn. We set up camp with plenty of daylight remaining, allowing time to explore the basin and watch marmots emerge from their burrows as the afternoon sun warmed the rocks.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762057186/DSCF6753_vgumje.jpg",
+              "alt": "Starting the trail",
+              "width": 4898,
+              "height": 3265,
+              "caption": "Only view of the glacier"
+            },
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762057584/DSCF6697_k3eafy.jpg",
+              "alt": "Starting the trail",
+              "width": 4898,
+              "height": 3265,
+              "caption": "Crossing a bridge"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762057572/DSCF6759_helorv.jpg",
+          "alt": "Mountain peak reflected in still alpine lake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Grouse"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762057580/DSCF6688_zqkhxp.jpg",
+          "alt": "Mountain peak reflected in still alpine lake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Old growth forest"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762057581/DSCF6766_dlxmqs.jpg",
+          "alt": "Mountain peak reflected in still alpine lake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Stopping to take a pic"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762057560/DSCF6690_dl61l8.jpg",
+          "alt": "Mountain peak reflected in still alpine lake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Photo op!"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762057490/DSCF6729_gqqxqq.jpg",
+          "alt": "Mountain peak reflected in still alpine lake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Sunrays"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762057475/DSCF6707_vrqc53.jpg",
+          "alt": "Mountain peak reflected in still alpine lake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Clouds in the mountains"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762057546/DSCF6731_ighnw6.jpg",
+          "alt": "Mountain peak reflected in still alpine lake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "So much stopping lol"
+        }
+      ],
+      "gearHighlights": [
+        "40L ultralight backpack worked perfectly for 3 days",
+        "Quilted sleeping bag kept me warm down to 35°F",
+        "Trekking poles essential for steep descents",
+        "Water filter processed crystal-clear alpine water effortlessly",
+        "Lightweight tarp provided flexibility in camp placement"
+      ],
+      "tips": [
+        "Start Day 2 early to complete ridge traverse before afternoon storms",
+        "Water is abundant throughout - no need to carry more than 1L between sources",
+        "Mosquitoes can be intense in July; bring head net and repellent",
+        "Not many camping spot at Island Lake; arrive early or have backup locations",
+        "Check trail conditions before going - snow can linger on north slopes until August"
+      ]
     }
   ],
   "gear": {

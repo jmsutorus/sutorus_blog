@@ -6,6 +6,7 @@ import { BackpackingTrip } from '@/types/backpacking';
 import { StatsBox } from './stats-box';
 import { DaySection } from './day-section';
 import { ImageModal } from '@/app/_components/shared/image-modal';
+import { SocialShare } from './social-share';
 
 interface TripSectionProps {
   trip: BackpackingTrip;
@@ -124,6 +125,13 @@ export function TripSection({ trip }: TripSectionProps) {
                 </ul>
               </div>
             )}
+
+            {/* Social Share */}
+            <SocialShare
+              url={typeof window !== 'undefined' ? window.location.href : `https://josephsutorus.com/backpacking/${trip.id}`}
+              title={trip.name}
+              description={`${trip.location} • ${trip.stats.distance} • ${trip.stats.difficulty}`}
+            />
           </div>
 
           {/* Sidebar with Stats */}
