@@ -60,12 +60,6 @@ export function HeroEditorial({ featured }: HeroEditorialProps) {
               >
                 Read Latest Posts
               </Link>
-              <Link
-                href="/database"
-                className="inline-flex items-center justify-center px-8 py-3 text-lg font-semibold text-primary border-2 border-primary hover:bg-primary/10 rounded-lg transition-all duration-200 hover:scale-105"
-              >
-                Browse Database
-              </Link>
             </div>
 
             {/* Scroll indicator */}

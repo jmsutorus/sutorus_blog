@@ -71,11 +71,11 @@ export function ReviewsGrid({ posts }: ReviewsGridProps) {
                       ⭐ {post.rating}/10
                     </Badge>
                   )}
-                  {post.category && (
-                    <Badge variant="outline" className="bg-background/60 font-medium">
-                      {Array.isArray(post.category) ? post.category[0] : post.category}
+                  {post.tags && Array.isArray(post.tags) && post.tags.slice(0, 4).map((tag, index) => (
+                    <Badge key={index} variant="outline" className="bg-background/60 font-medium">
+                      {tag}
                     </Badge>
-                  )}
+                  ))}
                   {post.genre && (
                     <Badge variant="outline" className="bg-background/60 font-medium">
                       {Array.isArray(post.genre) ? post.genre[0] : post.genre}
