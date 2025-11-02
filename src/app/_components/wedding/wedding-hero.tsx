@@ -9,23 +9,42 @@ interface WeddingHeroProps {
 export function WeddingHero({ hero }: WeddingHeroProps) {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
-      <Image
-        src={hero.image.url}
-        alt={hero.image.alt}
-        fill
-        priority
-        placeholder="blur"
-        blurDataURL={hero.image.blurDataURL || getCloudinaryBlurDataUrl(hero.image.url)}
-        className="object-cover"
-        sizes="100vw"
-      />
+      {/* Background Image - Desktop */}
+      <div className="absolute inset-0 hidden md:block">
+        <Image
+          src={hero.image.url}
+          alt={hero.image.alt}
+          fill
+          priority
+          placeholder="blur"
+          blurDataURL={hero.image.blurDataURL || getCloudinaryBlurDataUrl(hero.image.url)}
+          className="object-cover"
+          sizes="100vw"
+        />
+      </div>
+
+      {/* Background Image - Mobile */}
+      {hero.mobileImage && (
+        <div className="absolute inset-0 md:hidden">
+          <Image
+            src={hero.mobileImage.url}
+            alt={hero.mobileImage.alt}
+            fill
+            priority
+            placeholder="blur"
+            blurDataURL={hero.mobileImage.blurDataURL || getCloudinaryBlurDataUrl(hero.mobileImage.url)}
+            className="object-cover"
+            sizes="100vw"
+            layout="fill" objectFit="cover"
+          />
+        </div>
+      )}
 
       {/* Overlay for readability */}
       <div className="absolute inset-0 bg-black/30" />
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 text-center px-6 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           {/* Animated fade-in container */}
           <div className="animate-in fade-in duration-1000">

@@ -6,21 +6,30 @@ import { ThemeSwitcher } from "./theme-switcher";
 import { Separator } from "@/components/ui/separator";
 import { Search } from "lucide-react";
 import { useSearch } from "./search-provider";
+import { MobileNav } from "./mobile-nav";
 
 export function Nav() {
   const { setOpen } = useSearch();
 
   return (
     <nav className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container mx-auto px-0 sm:px-5">
-        <div className="flex h-16 items-center justify-between">
+      <div className="container mx-auto px-4 sm:px-5">
+        <div className="flex h-14 md:h-16 items-center justify-between">
+          {/* Mobile Menu Button */}
+          <div className="md:hidden">
+            <MobileNav />
+          </div>
+
           {/* Logo/Name */}
-          <Link href="/" className="text-xl font-bold text-foreground hover:text-primary transition-colors duration-200">
+          <Link
+            href="/"
+            className="text-lg md:text-xl font-bold text-foreground hover:text-primary transition-colors duration-200"
+          >
             Joseph Sutorus
           </Link>
 
-          {/* Navigation Links */}
-          <div className="flex items-center gap-2">
+          {/* Desktop Navigation Links */}
+          <div className="hidden md:flex items-center gap-2">
             <Link href="/">
               <Button variant="ghost" size="sm">
                 Home
@@ -67,8 +76,8 @@ export function Nav() {
               className="gap-2"
             >
               <Search className="h-4 w-4" />
-              <span className="hidden sm:inline">Search</span>
-              <kbd className="hidden sm:inline-flex pointer-events-none h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100">
+              <span className="hidden lg:inline">Search</span>
+              <kbd className="hidden lg:inline-flex pointer-events-none h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100">
                 <span className="text-xs">⌘</span>K
               </kbd>
             </Button>
@@ -76,6 +85,11 @@ export function Nav() {
             <Separator orientation="vertical" className="h-6 mx-2" />
 
             {/* Theme Switcher */}
+            <ThemeSwitcher />
+          </div>
+
+          {/* Mobile Right Side (Theme Switcher) */}
+          <div className="flex md:hidden items-center gap-2">
             <ThemeSwitcher />
           </div>
         </div>

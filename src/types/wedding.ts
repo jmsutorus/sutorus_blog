@@ -48,6 +48,8 @@ export interface WeddingHero {
   location: string;
   /** Hero background image */
   image: WeddingImage;
+  /** Optional mobile-specific hero background image */
+  mobileImage?: WeddingImage;
 }
 
 /**

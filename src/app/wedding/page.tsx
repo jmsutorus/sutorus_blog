@@ -3,6 +3,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import { WeddingHero } from '@/app/_components/wedding/wedding-hero';
 import { WeddingStorySection } from '@/app/_components/wedding/wedding-story-section';
+import { WeddingThanksSection } from '@/app/_components/wedding/wedding-thanks-section';
 import { WeddingGallery } from '@/app/_components/wedding/wedding-gallery';
 import { Metadata } from 'next';
 
@@ -60,8 +61,8 @@ export default async function WeddingPage() {
       {/* Hero Section */}
       <WeddingHero hero={data.hero} />
 
-      {/* Story Sections */}
-      {data.story.map((section, index) => (
+      {/* Story Sections - First part (Our Beginning and The Proposal) */}
+      {data.story.slice(0, 2).map((section, index) => (
         <WeddingStorySection
           key={index}
           content={section.content}
@@ -70,6 +71,20 @@ export default async function WeddingPage() {
           index={index}
         />
       ))}
+
+      {/* Story Sections - Second part (Our Special Day and The Celebration) */}
+      {data.story.slice(2).map((section, index) => (
+        <WeddingStorySection
+          key={index + 2}
+          content={section.content}
+          image={section.image}
+          imagePosition={section.imagePosition}
+          index={index + 2}
+        />
+      ))}
+
+      {/* Thank You Section */}
+      <WeddingThanksSection />
 
       {/* Gallery Section */}
       <WeddingGallery images={data.gallery} />
