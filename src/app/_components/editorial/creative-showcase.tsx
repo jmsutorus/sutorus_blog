@@ -71,7 +71,7 @@ export function CreativeShowcase() {
   }
 
   return (
-    <section className="py-24 bg-muted/30 scroll-animate">
+    <section className="py-24 bg-muted/30">
       <div className="container mx-auto px-4 sm:px-4">
         <div className="max-w-7xl mx-auto">
           {/* Section header */}
@@ -88,7 +88,7 @@ export function CreativeShowcase() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Currently Reading - Large card spanning 2 columns */}
             <div
-              className="lg:col-span-2 lg:row-span-2 group relative overflow-hidden rounded-2xl bg-gradient-to-br from-secondary/20 to-primary/20 p-8 shadow-xl transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl scroll-animate-delay-1"
+              className="lg:col-span-2 lg:row-span-2 group relative overflow-hidden rounded-2xl bg-gradient-to-br from-secondary/20 to-primary/20 p-8 shadow-xl transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl"
               style={{ animationDelay: '0ms' }}
             >
               <div className="flex flex-col h-full">
@@ -136,7 +136,7 @@ export function CreativeShowcase() {
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`group relative overflow-hidden rounded-2xl shadow-xl transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl scroll-animate-delay-${index + 2}`}
+                className={`group relative overflow-hidden rounded-2xl shadow-xl transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl`}
                 style={{ animationDelay: `${(index + 1) * 100}ms` }}
               >
                 {/* Project image */}

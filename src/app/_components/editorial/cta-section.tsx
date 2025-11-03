@@ -8,7 +8,7 @@ import Link from 'next/link';
  */
 export function CTASection() {
   return (
-    <section className="relative py-24 overflow-hidden scroll-animate bg-muted/30">
+    <section className="relative py-24 overflow-hidden bg-muted/30">
 
       <div className="container mx-auto px-4 sm:px-4 relative z-10">
         <div className="max-w-5xl mx-auto text-center space-y-12">
