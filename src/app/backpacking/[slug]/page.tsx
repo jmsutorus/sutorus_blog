@@ -90,7 +90,7 @@ export default async function TripPage(props: {
   return (
     <main className="backpacking-page">
       {/* Back to Trips Link */}
-      <div className="container mx-auto px-0 sm:px-4 pt-8">
+      <div className="container mx-auto px-4 sm:px-4 pt-8">
         <Link href="/backpacking">
           <Button variant="ghost" size="sm">
             ← Back to All Trips

@@ -1,10 +1,14 @@
 import Container from '@/app/_components/container';
+import { FloatingHearts3D } from './floating-hearts-3d';
 
 export function WeddingThanksSection() {
   return (
-    <section className="py-16 sm:py-20 md:py-24 bg-gradient-to-br from-rose-50 via-pink-50 to-rose-100">
+    <section className="relative py-16 sm:py-20 md:py-24 bg-gradient-to-br from-rose-50 via-pink-50 to-rose-100 overflow-hidden">
+      {/* 3D Floating Hearts Background */}
+      <FloatingHearts3D />
+
       <Container>
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="relative z-10 max-w-4xl mx-auto text-center">
           {/* Decorative element */}
           <div className="mb-8 flex justify-center">
             <svg

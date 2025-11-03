@@ -40,7 +40,7 @@ export default async function AllTripsPage() {
   return (
     <main className="backpacking-page">
       {/* Header with Back Link */}
-      <div className="container mx-auto px-0 sm:px-4 pt-8">
+      <div className="container mx-auto px-4 sm:px-4 pt-8">
         <Link href="/backpacking">
           <Button variant="ghost" size="sm">
             ← Back to Backpacking
@@ -49,7 +49,7 @@ export default async function AllTripsPage() {
       </div>
 
       {/* All Trips Section */}
-      <section className="container mx-auto px-0 sm:px-4 py-16">
+      <section className="container mx-auto px-4 sm:px-4 py-16">
         <h1 className="mb-4 text-5xl font-bold">All Trips</h1>
         <p className="mb-8 text-lg text-muted-foreground">
           Explore all {data.trips.length} backpacking adventures

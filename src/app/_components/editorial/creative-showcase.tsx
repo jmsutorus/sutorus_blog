@@ -57,7 +57,7 @@ export function CreativeShowcase() {
   if (loading) {
     return (
       <section className="py-24 bg-muted/30">
-        <div className="container mx-auto px-0 sm:px-4">
+        <div className="container mx-auto px-4 sm:px-4">
           <div className="max-w-7xl mx-auto text-center">
             <p className="text-muted-foreground">Loading...</p>
           </div>
@@ -72,7 +72,7 @@ export function CreativeShowcase() {
 
   return (
     <section className="py-24 bg-muted/30 scroll-animate">
-      <div className="container mx-auto px-0 sm:px-4">
+      <div className="container mx-auto px-4 sm:px-4">
         <div className="max-w-7xl mx-auto">
           {/* Section header */}
           <div className="mb-16 text-center">

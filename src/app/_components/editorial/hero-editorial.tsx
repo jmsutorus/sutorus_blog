@@ -20,7 +20,7 @@ export function HeroEditorial({ featured }: HeroEditorialProps) {
       {/* Animated warm gradient background */}
       <AnimatedGradient opacity={0.12} />
 
-      <div className="container mx-auto px-0 sm:px-4">
+      <div className="container mx-auto px-4 sm:px-4">
         <div className="grid lg:grid-cols-[60%_40%] gap-12 items-center">
           {/* Left side: Main content */}
           <div className="space-y-6">

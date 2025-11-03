@@ -32,7 +32,7 @@ export function TripSection({ trip }: TripSectionProps) {
 
   return (
     <section className="py-16">
-      <div className="container mx-auto px-0 sm:px-4">
+      <div className="container mx-auto px-4 sm:px-4">
         {/* Trip Hero Image */}
         <div className="relative mb-8 aspect-video overflow-hidden rounded-lg">
           <Image

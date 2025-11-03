@@ -35,7 +35,6 @@ export function WeddingHero({ hero }: WeddingHeroProps) {
             blurDataURL={hero.mobileImage.blurDataURL || getCloudinaryBlurDataUrl(hero.mobileImage.url)}
             className="object-cover"
             sizes="100vw"
-            layout="fill" objectFit="cover"
           />
         </div>
       )}
