@@ -38,10 +38,10 @@ export function WeddingGallery({ images }: WeddingGalleryProps) {
         <Container>
           {/* Section Header */}
           <div className="text-center mb-12 sm:mb-16">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-foreground mb-4">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-gray-900 dark:text-white mb-4">
               Our Special Day
             </h2>
-            <p className="text-base sm:text-lg text-foreground/70 max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto">
               Moments captured from our wedding celebration
             </p>
           </div>
