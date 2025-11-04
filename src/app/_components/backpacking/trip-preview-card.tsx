@@ -4,26 +4,13 @@ import { BackpackingTrip } from '@/types/backpacking';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { getCloudinaryBlurDataUrl } from '@/lib/cloudinary/getBlurDataUrl';
+import { getDifficultyVariant } from '@/lib/backpacking-helpers';
 
 interface TripPreviewCardProps {
   trip: BackpackingTrip;
 }
 
 export function TripPreviewCard({ trip }: TripPreviewCardProps) {
-  const getDifficultyVariant = (difficulty: string) => {
-    switch (difficulty) {
-      case 'Easy':
-        return 'secondary';
-      case 'Moderate':
-        return 'default';
-      case 'Difficult':
-      case 'Extreme':
-        return 'destructive';
-      default:
-        return 'outline';
-    }
-  };
-
   return (
     <Link href={`/backpacking/${trip.id}`} className="group block">
       <Card className="overflow-hidden transition-all hover:shadow-lg">

@@ -68,7 +68,29 @@ export function Nav() {
 
             <Separator orientation="vertical" className="h-6 mx-2" />
 
-            {/* Search Button */}
+            {/* Search and Theme Switcher Group */}
+            <div className="flex items-center gap-2">
+              {/* Search Button */}
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => setOpen(true)}
+                className="gap-2"
+              >
+                <Search className="h-4 w-4" />
+                <span className="hidden lg:inline">Search</span>
+                <kbd className="hidden lg:inline-flex pointer-events-none h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100">
+                  <span className="text-xs">⌘</span>K
+                </kbd>
+              </Button>
+
+              {/* Theme Switcher - Right next to Search */}
+              <ThemeSwitcher />
+            </div>
+          </div>
+
+          {/* Mobile Right Side (Search + Theme Switcher) */}
+          <div className="flex md:hidden items-center gap-2">
             <Button
               variant="ghost"
               size="sm"
@@ -76,20 +98,7 @@ export function Nav() {
               className="gap-2"
             >
               <Search className="h-4 w-4" />
-              <span className="hidden lg:inline">Search</span>
-              <kbd className="hidden lg:inline-flex pointer-events-none h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100">
-                <span className="text-xs">⌘</span>K
-              </kbd>
             </Button>
-
-            <Separator orientation="vertical" className="h-6 mx-2" />
-
-            {/* Theme Switcher */}
-            <ThemeSwitcher />
-          </div>
-
-          {/* Mobile Right Side (Theme Switcher) */}
-          <div className="flex md:hidden items-center gap-2">
             <ThemeSwitcher />
           </div>
         </div>

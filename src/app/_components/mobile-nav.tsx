@@ -80,6 +80,14 @@ export function MobileNav() {
                 <span className="text-xs">⌘</span>K
               </kbd>
             </Button>
+
+            {/* Theme Switcher */}
+            <div className="flex items-center justify-start gap-2 px-3 py-2">
+              <span className="text-base text-foreground">Theme</span>
+              <div className="ml-auto">
+                <ThemeSwitcher />
+              </div>
+            </div>
           </div>
         </div>
       </SheetContent>

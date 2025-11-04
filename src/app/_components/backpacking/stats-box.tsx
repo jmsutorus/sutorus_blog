@@ -1,25 +1,12 @@
 import { TripStats } from '@/types/backpacking';
 import { Badge } from '@/components/ui/badge';
+import { getDifficultyVariant } from '@/lib/backpacking-helpers';
 
 interface StatsBoxProps {
   stats: TripStats;
 }
 
 export function StatsBox({ stats }: StatsBoxProps) {
-  const getDifficultyVariant = (difficulty: string) => {
-    switch (difficulty) {
-      case 'Easy':
-        return 'secondary';
-      case 'Moderate':
-        return 'default';
-      case 'Difficult':
-      case 'Extreme':
-        return 'destructive';
-      default:
-        return 'outline';
-    }
-  };
-
   return (
     <aside className="stats-box">
       <div className="rounded-lg border bg-card p-6 shadow-sm lg:sticky lg:top-24">

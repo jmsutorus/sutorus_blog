@@ -120,7 +120,7 @@ export function SocialShare({ url, title, description }: SocialShareProps) {
         {/* Copy Link (for Instagram and general sharing) */}
         <Button
           onClick={handleCopyLink}
-          variant="outline"
+          variant="secondary"
           size="sm"
           className="h-10 gap-2"
         >

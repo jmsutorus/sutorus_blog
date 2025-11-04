@@ -2,6 +2,7 @@ import { BackpackingData, BackpackingTrip } from '@/types/backpacking';
 import fs from 'fs/promises';
 import path from 'path';
 import { TripSection } from '@/app/_components/backpacking/trip-section';
+import { RelatedTrips, getRelatedTrips } from '@/app/_components/backpacking/related-trips';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
@@ -87,6 +88,9 @@ export default async function TripPage(props: {
     notFound();
   }
 
+  // Get related trips
+  const relatedTrips = getRelatedTrips(trip, data.trips, 3);
+
   return (
     <main className="backpacking-page">
       {/* Back to Trips Link */}
@@ -100,6 +104,13 @@ export default async function TripPage(props: {
 
       {/* Trip Section */}
       <TripSection trip={trip} />
+
+      {/* Related Trips Section */}
+      {relatedTrips.length > 0 && (
+        <div className="container mx-auto px-4 sm:px-4 pb-16">
+          <RelatedTrips trips={relatedTrips} title="Similar Adventures" maxTrips={3} />
+        </div>
+      )}
     </main>
   );
 }

@@ -58,6 +58,7 @@ export interface BackpackingTrip {
   photos: BackpackingImage[];
   gearHighlights: string[];
   tips: string[];
+  tags?: string[];
 }
 
 /**

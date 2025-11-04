@@ -85,7 +85,7 @@ export function ImageModal({
             {currentIndex > 0 && (
               <button
                 onClick={() => onNavigate('prev')}
-                className="absolute left-4 top-1/2 -translate-y-1/2 rounded-full bg-white/10 p-3 hover:bg-white/20 transition-colors focus:outline-none focus:ring-2 focus:ring-white/50"
+                className="absolute left-4 top-1/2 -translate-y-1/2 rounded-full bg-white/10 p-3 hover:bg-white/20 transition-colors z-10 focus:outline-none focus:ring-2 focus:ring-white/50"
                 aria-label="Previous image"
               >
                 <svg
@@ -109,7 +109,7 @@ export function ImageModal({
             {currentIndex < images.length - 1 && (
               <button
                 onClick={() => onNavigate('next')}
-                className="absolute right-4 top-1/2 -translate-y-1/2 rounded-full bg-white/10 p-3 hover:bg-white/20 transition-colors focus:outline-none focus:ring-2 focus:ring-white/50"
+                className="absolute right-4 top-1/2 -translate-y-1/2 rounded-full bg-white/10 p-3 hover:bg-white/20 transition-colors z-10 focus:outline-none focus:ring-2 focus:ring-white/50"
                 aria-label="Next image"
               >
                 <svg
