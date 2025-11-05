@@ -17,9 +17,9 @@ export default function Database() {
     <main>
       <Container>
         <div className="mb-8 mt-8">
-          <Link href="/">
+          <Link href="/reviews">
             <Button variant="outline" className="mb-6">
-              ← Back to Home
+              ← Back to Reviews
             </Button>
           </Link>
           <h1 className="mb-4 text-5xl font-bold tracking-tighter leading-tight md:text-7xl">

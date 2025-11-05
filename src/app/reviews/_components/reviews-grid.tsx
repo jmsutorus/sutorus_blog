@@ -53,16 +53,16 @@ export function ReviewsGrid({ posts }: ReviewsGridProps) {
                 {post.category && (
                   <p className="mb-2 text-sm font-medium text-muted-foreground">
                     {Array.isArray(post.category)
-                      ? post.category.join(', ').replaceAll('[', '').replaceAll(']', '')
-                      : post.category.replaceAll('[', '').replaceAll(']', '')}
+                      ? post.category.join(', ')
+                      : post.category}
                   </p>
                 )}
 
-                {post.released && (
+                {/* {post.released && (
                   <p className="mb-4 text-sm font-medium text-muted-foreground">
                     {typeof post.released === 'string' ? post.released : new Date(post.released).getFullYear()}
                   </p>
-                )}
+                )} */}
 
                 {/* Stats Preview */}
                 <div className="flex flex-wrap gap-2">

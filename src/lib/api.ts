@@ -67,21 +67,42 @@ export function getAllPosts(): Post[] {
     .map((slug) => getPostBySlug(slug))
     // sort posts by date in descending order
     .sort((post1, post2) => (post1.completed > post2.completed ? -1 : 1))
-    // strip [[ and ]] from genre and category fields
-    .map((post) => ({
-      ...post,
-      genre: Array.isArray(post.genre)
-        ? post.genre.map(g => g.replace(/\[\[|\]\]/g, ''))
-        : typeof post.genre === 'string'
-          ? post.genre.replace(/\[\[|\]\]/g, '')
-          : post.genre,
-      category: typeof post.category === 'string'
-        ? post.category.replace(/\[\[|\]\]/g, '')
-        : post.category,
-      description: typeof post.description === 'string'
-        ? post.description.replace(/\"/g, '')
-        : post.description
-    }));
+    // strip [ ], [[ and ]] from genre and category fields
+    .map((post) => {
+      const cleanCategory = typeof post.category === 'string'
+        ? post.category.replace(/\[|\]/g, '')
+        : post.category;
+
+      // Process tags: filter out category matches and year tags, replace underscores, and capitalize
+      const processedTags = Array.isArray(post.tags)
+        ? post.tags
+            .filter(tag => tag.toLowerCase() !== cleanCategory.toLowerCase())
+            .filter(tag => !tag.toLowerCase().startsWith('year'))
+            .map(tag => {
+              // Replace underscores with spaces
+              const withSpaces = tag.replace(/_/g, ' ');
+              // Capitalize first letter of each word
+              return withSpaces
+                .split(' ')
+                .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+                .join(' ');
+            })
+        : [];
+
+      return {
+        ...post,
+        genre: Array.isArray(post.genre)
+          ? post.genre.map(g => g.replace(/\[|\]/g, ''))
+          : typeof post.genre === 'string'
+            ? post.genre.replace(/\[|\]/g, '')
+            : post.genre,
+        category: cleanCategory,
+        description: typeof post.description === 'string'
+          ? post.description.replace(/\"/g, '')
+          : post.description,
+        tags: processedTags
+      };
+    });
   return posts;
 }
 
