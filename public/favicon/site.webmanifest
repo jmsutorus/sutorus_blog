@@ -3,17 +3,31 @@
   "short_name": "Sutorus",
   "icons": [
     {
-      "src": "/favicons/sutorus_logo.png",
+      "src": "/favicon/sutorus_logo_192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-      "src": "/favicons/sutorus_logo.png",
+      "src": "/favicon/sutorus_logo_192_white.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon/sutorus_logo_512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon/sutorus_logo-512_white.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
     }
   ],
-  "theme_color": "#000000",
-  "background_color": "#000000",
+  "theme_color": "#16502D",
+  "background_color": "#16502D",
   "display": "standalone"
 }
