@@ -1,5 +1,5 @@
 import { GearItem } from '@/types/backpacking';
-import { Card } from '@/components/ui/card';
+import { Card } from '@/app/_components/card';
 
 interface GearShowcaseProps {
   gear: {

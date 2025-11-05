@@ -2,7 +2,7 @@ import Link from "next/link";
 import Container from "@/app/_components/container";
 import { getAllPosts } from "@/lib/api";
 import { DatabaseTable } from "@/app/database/_components/database-table";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/app/_components/button";
 
 // This matches the count from the landing page (1 hero + 5 more posts)
 const POSTS_SHOWN_ON_LANDING = 6;

@@ -1,7 +1,7 @@
 import CoverImage from "./cover-image";
 import DateFormatter from "./date-formatter";
 import { PostTitle } from "@/app/_components/post-title";
-import { Badge } from "@/components/ui/badge";
+import { Badge } from "@/app/_components/badge";
 
 type Props = {
   title: string;

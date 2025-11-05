@@ -1,5 +1,5 @@
 import { TripStats } from '@/types/backpacking';
-import { Badge } from '@/components/ui/badge';
+import { Badge } from '@/app/_components/badge';
 import { getDifficultyVariant } from '@/lib/backpacking-helpers';
 
 interface StatsBoxProps {

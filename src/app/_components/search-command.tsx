@@ -10,8 +10,8 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from "@/components/ui/command"
-import { Badge } from "@/components/ui/badge"
+} from "@/app/_components/command"
+import { Badge } from "@/app/_components/badge"
 import { SearchItem } from "@/lib/search/getSearchIndex"
 import { getRecentPages, RecentPage } from "@/lib/search/recentPages"
 import { BookOpen, Mountain, Heart, FileText, Clock } from "lucide-react"

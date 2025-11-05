@@ -1,10 +1,9 @@
 import { BackpackingData } from '@/types/backpacking';
-import fs from 'fs/promises';
-import path from 'path';
-import { TripPreviewCard } from '@/app/_components/backpacking/trip-preview-card';
+import { loadJsonData } from '@/lib/data-loaders/json-data-loader';
+import { TripPreviewCard } from '@/app/backpacking/_components/trip-preview-card';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/app/_components/button';
 
 export const metadata: Metadata = {
   title: 'All Trips | Backpacking Adventures | Joseph Sutorus',
@@ -17,14 +16,9 @@ export const metadata: Metadata = {
 };
 
 export default async function AllTripsPage() {
-  const filePath = path.join(process.cwd(), 'public/data/backpacking.json');
+  const data = await loadJsonData<BackpackingData>('backpacking.json');
 
-  let data: BackpackingData;
-  try {
-    const fileContent = await fs.readFile(filePath, 'utf-8');
-    data = JSON.parse(fileContent);
-  } catch (error) {
-    console.error('Error loading backpacking data:', error);
+  if (!data) {
     return (
       <div className="flex min-h-screen items-center justify-center">
         <div className="text-center">

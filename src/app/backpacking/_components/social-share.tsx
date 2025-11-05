@@ -8,7 +8,7 @@ import {
   FacebookIcon,
   WhatsappIcon,
 } from 'react-share';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/app/_components/button';
 import { useState, useEffect } from 'react';
 
 interface SocialShareProps {

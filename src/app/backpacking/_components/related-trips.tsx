@@ -1,14 +1,15 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
+import { Card, CardContent, CardFooter, CardHeader } from '@/app/_components/card';
+import { Button } from '@/app/_components/button';
+import { Badge } from '@/app/_components/badge';
 import { BackpackingTrip } from '@/types/backpacking';
-import { calculateRelevance } from '@/app/_components/shared/related-posts';
+import { calculateRelevance, hasSimilarContent } from '@/lib/utils/related-content';
 import { getDifficultyColor, getDifficultyVariant } from '@/lib/backpacking-helpers';
 
 /**
  * Get related trips based on tags, difficulty, and location similarity
+ * Enhanced version of getRelatedItems that includes backpacking-specific scoring
  */
 export function getRelatedTrips(
   currentTrip: BackpackingTrip,
@@ -21,7 +22,7 @@ export function getRelatedTrips(
     .map(trip => {
       let score = 0;
 
-      // Tag similarity (highest weight)
+      // Tag similarity (highest weight) - using shared utility
       if (currentTrip.tags && trip.tags) {
         score += calculateRelevance(currentTrip.tags, trip.tags) * 3;
       }
@@ -31,11 +32,9 @@ export function getRelatedTrips(
         score += 2;
       }
 
-      // Location similarity (same state/region)
-      if (trip.location === currentTrip.location) {
+      // Location similarity - using shared utility
+      if (hasSimilarContent(trip.location, currentTrip.location)) {
         score += 2;
-      } else if (trip.location.includes(currentTrip.location.split(',')[0])) {
-        score += 1;
       }
 
       // Season similarity

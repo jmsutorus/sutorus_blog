@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/app/_components/button";
 import { ThemeSwitcher } from "./theme-switcher";
-import { Separator } from "@/components/ui/separator";
+import { Separator } from "@/app/_components/separator";
 import { Search, Menu } from "lucide-react";
 import { useSearch } from "./search-provider";
 import {
@@ -12,7 +12,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet";
+} from "@/app/_components/sheet";
 import { useState } from "react";
 
 const navLinks = [

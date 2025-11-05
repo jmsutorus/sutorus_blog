@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
+import { Card, CardContent, CardFooter, CardHeader } from '@/app/_components/card';
+import { Button } from '@/app/_components/button';
+import { Badge } from '@/app/_components/badge';
+import { getRelatedItems } from '@/lib/utils/related-content';
 
 interface RelatedPost {
   slug: string;
@@ -22,66 +23,15 @@ interface RelatedPostsProps {
 }
 
 /**
- * Calculate relevance score between two sets of tags
- * Returns the number of common tags
- */
-export function calculateRelevance(currentTags: string[], postTags: string[]): number {
-  if (!currentTags || !postTags) return 0;
-
-  const currentSet = new Set(currentTags.map(tag => tag.toLowerCase()));
-  const postSet = new Set(postTags.map(tag => tag.toLowerCase()));
-
-  let commonTags = 0;
-  postSet.forEach(tag => {
-    if (currentSet.has(tag)) {
-      commonTags++;
-    }
-  });
-
-  return commonTags;
-}
-
-/**
  * Get related posts based on tag similarity
+ * Uses the shared getRelatedItems utility
  */
 export function getRelatedPosts<T extends { tags?: string[]; slug: string }>(
   currentPost: T,
   allPosts: T[],
   maxPosts: number = 3
 ): T[] {
-  if (!currentPost.tags || currentPost.tags.length === 0) {
-    // If no tags, return most recent posts excluding current
-    return allPosts
-      .filter(post => post.slug !== currentPost.slug)
-      .slice(0, maxPosts);
-  }
-
-  // Calculate relevance scores
-  const postsWithScores = allPosts
-    .filter(post => post.slug !== currentPost.slug)
-    .map(post => ({
-      post,
-      score: calculateRelevance(currentPost.tags || [], post.tags || [])
-    }))
-    .filter(({ score }) => score > 0) // Only keep posts with at least one common tag
-    .sort((a, b) => b.score - a.score); // Sort by score descending
-
-  // If we don't have enough related posts, fill with other posts
-  const relatedPosts = postsWithScores.slice(0, maxPosts);
-
-  if (relatedPosts.length < maxPosts) {
-    const usedSlugs = new Set(relatedPosts.map(({ post }) => post.slug));
-    const fillerPosts = allPosts
-      .filter(post => post.slug !== currentPost.slug && !usedSlugs.has(post.slug))
-      .slice(0, maxPosts - relatedPosts.length);
-
-    return [
-      ...relatedPosts.map(({ post }) => post),
-      ...fillerPosts
-    ];
-  }
-
-  return relatedPosts.map(({ post }) => post);
+  return getRelatedItems(currentPost, allPosts, maxPosts, 'slug');
 }
 
 /**

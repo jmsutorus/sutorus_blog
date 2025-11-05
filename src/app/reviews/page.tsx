@@ -1,6 +1,6 @@
 import Container from "@/app/_components/container";
-import { Intro } from "@/app/_components/intro";
-import { ReviewsGrid } from "@/app/_components/reviews-grid";
+import { Intro } from "@/app/posts/_components/intro";
+import { ReviewsGrid } from "@/app/reviews/_components/reviews-grid";
 import { getAllPosts } from "@/lib/api";
 import { Metadata } from "next";
 

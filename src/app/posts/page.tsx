@@ -1,10 +1,10 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import Container from "@/app/_components/container";
-import { Intro } from "@/app/_components/intro";
+import { Intro } from "@/app/posts/_components/intro";
 import { UnifiedPostCard } from "@/app/_components/unified-post-card";
 import { getAllUnifiedPosts } from "@/lib/getAllUnifiedPosts";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/app/_components/button";
 
 export const metadata: Metadata = {
   title: "All Posts",

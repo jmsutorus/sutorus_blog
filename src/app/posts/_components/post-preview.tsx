@@ -1,6 +1,6 @@
 import Link from "next/link";
-import CoverImage from "./cover-image";
-import DateFormatter from "./date-formatter";
+import CoverImage from "@/app/_components/cover-image";
+import DateFormatter from "@/app/_components/date-formatter";
 
 type Props = {
   title: string;

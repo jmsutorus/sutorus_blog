@@ -1,28 +1,24 @@
 import { BackpackingData, BackpackingTrip } from '@/types/backpacking';
-import fs from 'fs/promises';
-import path from 'path';
-import { TripSection } from '@/app/_components/backpacking/trip-section';
-import { RelatedTrips, getRelatedTrips } from '@/app/_components/backpacking/related-trips';
+import { loadJsonData } from '@/lib/data-loaders/json-data-loader';
+import { TripSection } from '@/app/backpacking/_components/trip-section';
+import { RelatedTrips, getRelatedTrips } from '@/app/backpacking/_components/related-trips';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/app/_components/button';
 
 // Generate static params for all trips
 export async function generateStaticParams() {
-  const filePath = path.join(process.cwd(), 'public/data/backpacking.json');
+  const data = await loadJsonData<BackpackingData>('backpacking.json');
 
-  try {
-    const fileContent = await fs.readFile(filePath, 'utf-8');
-    const data: BackpackingData = JSON.parse(fileContent);
-
-    return data.trips.map((trip) => ({
-      slug: trip.id,
-    }));
-  } catch (error) {
-    console.error('Error generating static params:', error);
+  if (!data) {
+    console.error('Error generating static params: backpacking.json not found');
     return [];
   }
+
+  return data.trips.map((trip) => ({
+    slug: trip.id,
+  }));
 }
 
 // Generate metadata for each trip
@@ -30,55 +26,48 @@ export async function generateMetadata(props: {
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const params = await props.params;
-  const filePath = path.join(process.cwd(), 'public/data/backpacking.json');
+  const data = await loadJsonData<BackpackingData>('backpacking.json');
 
-  try {
-    const fileContent = await fs.readFile(filePath, 'utf-8');
-    const data: BackpackingData = JSON.parse(fileContent);
-    const trip = data.trips.find((t) => t.id === params.slug);
-
-    if (!trip) {
-      return {
-        title: 'Trip Not Found | Joseph Sutorus',
-      };
-    }
-
-    return {
-      title: `${trip.name} | Backpacking | Joseph Sutorus`,
-      description: `${trip.stats.distance} • ${trip.stats.duration} • ${trip.stats.difficulty}. ${trip.story.substring(0, 150)}...`,
-      openGraph: {
-        title: trip.name,
-        description: `${trip.location} - ${trip.stats.distance} backpacking trip`,
-        type: 'article',
-        images: [
-          {
-            url: trip.hero.url,
-            width: trip.hero.width,
-            height: trip.hero.height,
-            alt: trip.hero.alt,
-          },
-        ],
-      },
-    };
-  } catch (error) {
+  if (!data) {
     return {
       title: 'Backpacking Trip | Joseph Sutorus',
     };
   }
+
+  const trip = data.trips.find((t) => t.id === params.slug);
+
+  if (!trip) {
+    return {
+      title: 'Trip Not Found | Joseph Sutorus',
+    };
+  }
+
+  return {
+    title: `${trip.name} | Backpacking | Joseph Sutorus`,
+    description: `${trip.stats.distance} • ${trip.stats.duration} • ${trip.stats.difficulty}. ${trip.story.substring(0, 150)}...`,
+    openGraph: {
+      title: trip.name,
+      description: `${trip.location} - ${trip.stats.distance} backpacking trip`,
+      type: 'article',
+      images: [
+        {
+          url: trip.hero.url,
+          width: trip.hero.width,
+          height: trip.hero.height,
+          alt: trip.hero.alt,
+        },
+      ],
+    },
+  };
 }
 
 export default async function TripPage(props: {
   params: Promise<{ slug: string }>;
 }) {
   const params = await props.params;
-  const filePath = path.join(process.cwd(), 'public/data/backpacking.json');
+  const data = await loadJsonData<BackpackingData>('backpacking.json');
 
-  let data: BackpackingData;
-  try {
-    const fileContent = await fs.readFile(filePath, 'utf-8');
-    data = JSON.parse(fileContent);
-  } catch (error) {
-    console.error('Error loading backpacking data:', error);
+  if (!data) {
     notFound();
   }
 

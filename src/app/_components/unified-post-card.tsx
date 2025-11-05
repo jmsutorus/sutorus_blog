@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Card } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
+import { Card } from '@/app/_components/card';
+import { Badge } from '@/app/_components/badge';
 
 export interface UnifiedPost {
   id: string;

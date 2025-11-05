@@ -1,9 +1,9 @@
 import { getFeaturedPosts } from '@/lib/api';
-import { HeroEditorial } from '@/app/_components/editorial/hero-editorial';
-import { PersonalStory } from '@/app/_components/editorial/personal-story';
-import { FeaturedWriting } from '@/app/_components/editorial/featured-writing';
-import { CreativeShowcase } from '@/app/_components/editorial/creative-showcase';
-import { CTASection } from '@/app/_components/editorial/cta-section';
+import { HeroEditorial } from '@/app/(home)/_components/hero-editorial';
+import { PersonalStory } from '@/app/(home)/_components/personal-story';
+import { FeaturedWriting } from '@/app/(home)/_components/featured-writing';
+import { CreativeShowcase } from '@/app/(home)/_components/creative-showcase';
+import { CTASection } from '@/app/(home)/_components/cta-section';
 
 export default function Home() {
   // Get featured posts for the landing page

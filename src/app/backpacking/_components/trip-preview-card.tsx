@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { BackpackingTrip } from '@/types/backpacking';
-import { Card } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
+import { Card } from '@/app/_components/card';
+import { Badge } from '@/app/_components/badge';
 import { getCloudinaryBlurDataUrl } from '@/lib/cloudinary/getBlurDataUrl';
 import { getDifficultyVariant } from '@/lib/backpacking-helpers';
 

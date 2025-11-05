@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Post } from "@/interfaces/post";
 import { PostPreview } from "./post-preview";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/app/_components/button";
 
 type Props = {
   posts: Post[];

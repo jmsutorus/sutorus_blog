@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { DayItinerary } from '@/types/backpacking';
-import { Badge } from '@/components/ui/badge';
+import { Badge } from '@/app/_components/badge';
 import { getCloudinaryBlurDataUrl } from '@/lib/cloudinary/getBlurDataUrl';
 
 interface DaySectionProps {

@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Post } from '@/interfaces/post';
-import { AnimatedGradient } from '../animations/animated-gradient';
+import { AnimatedGradient } from '@/app/_components/animations/animated-gradient';
 
 interface HeroEditorialProps {
   featured?: Post;

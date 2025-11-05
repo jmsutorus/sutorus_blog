@@ -1,10 +1,9 @@
 import { WeddingData } from '@/types/wedding';
-import fs from 'fs/promises';
-import path from 'path';
-import { WeddingHero } from '@/app/_components/wedding/wedding-hero';
-import { WeddingStorySection } from '@/app/_components/wedding/wedding-story-section';
-import { WeddingThanksSection } from '@/app/_components/wedding/wedding-thanks-section';
-import { WeddingGallery } from '@/app/_components/wedding/wedding-gallery';
+import { loadJsonData } from '@/lib/data-loaders/json-data-loader';
+import { WeddingHero } from '@/app/wedding/_components/wedding-hero';
+import { WeddingStorySection } from '@/app/wedding/_components/wedding-story-section';
+import { WeddingThanksSection } from '@/app/wedding/_components/wedding-thanks-section';
+import { WeddingGallery } from '@/app/wedding/_components/wedding-gallery';
 import { Metadata } from 'next';
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -35,14 +34,9 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function WeddingPage() {
   // Load wedding data server-side
-  const filePath = path.join(process.cwd(), 'public/data/wedding.json');
+  const data = await loadJsonData<WeddingData>('wedding.json');
 
-  let data: WeddingData;
-  try {
-    const fileContent = await fs.readFile(filePath, 'utf-8');
-    data = JSON.parse(fileContent);
-  } catch (error) {
-    console.error('Error loading wedding data:', error);
+  if (!data) {
     // Fallback or error handling
     return (
       <div className="min-h-screen flex items-center justify-center">

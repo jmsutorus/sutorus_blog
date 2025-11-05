@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/app/_components/button";
 import { ThemeSwitcher } from "./theme-switcher";
-import { Separator } from "@/components/ui/separator";
+import { Separator } from "@/app/_components/separator";
 import { Search } from "lucide-react";
 import { useSearch } from "./search-provider";
 import { MobileNav } from "./mobile-nav";

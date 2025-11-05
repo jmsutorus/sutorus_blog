@@ -1,10 +1,9 @@
 import { BackpackingData } from '@/types/backpacking';
-import fs from 'fs/promises';
-import path from 'path';
-import { BackpackingHero } from '@/app/_components/backpacking/backpacking-hero';
-import { TripPreviewCard } from '@/app/_components/backpacking/trip-preview-card';
-import { GearShowcase } from '@/app/_components/backpacking/gear-showcase';
-import { Button } from '@/components/ui/button';
+import { loadJsonData } from '@/lib/data-loaders/json-data-loader';
+import { BackpackingHero } from '@/app/backpacking/_components/backpacking-hero';
+import { TripPreviewCard } from '@/app/backpacking/_components/trip-preview-card';
+import { GearShowcase } from '@/app/backpacking/_components/gear-showcase';
+import { Button } from '@/app/_components/button';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 
@@ -20,14 +19,9 @@ export const metadata: Metadata = {
 };
 
 export default async function BackpackingPage() {
-  const filePath = path.join(process.cwd(), 'public/data/backpacking.json');
+  const data = await loadJsonData<BackpackingData>('backpacking.json');
 
-  let data: BackpackingData;
-  try {
-    const fileContent = await fs.readFile(filePath, 'utf-8');
-    data = JSON.parse(fileContent);
-  } catch (error) {
-    console.error('Error loading backpacking data:', error);
+  if (!data) {
     return (
       <div className="flex min-h-screen items-center justify-center">
         <div className="text-center">
