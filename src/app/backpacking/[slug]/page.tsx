@@ -6,6 +6,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/app/_components/button';
+import { generateTripMetadata } from '@/lib/metadata/og-metadata';
 
 // Generate static params for all trips
 export async function generateStaticParams() {
@@ -42,23 +43,8 @@ export async function generateMetadata(props: {
     };
   }
 
-  return {
-    title: `${trip.name} | Backpacking | Joseph Sutorus`,
-    description: `${trip.stats.distance} • ${trip.stats.duration} • ${trip.stats.difficulty}. ${trip.story.substring(0, 150)}...`,
-    openGraph: {
-      title: trip.name,
-      description: `${trip.location} - ${trip.stats.distance} backpacking trip`,
-      type: 'article',
-      images: [
-        {
-          url: trip.hero.url,
-          width: trip.hero.width,
-          height: trip.hero.height,
-          alt: trip.hero.alt,
-        },
-      ],
-    },
-  };
+  // Use the comprehensive metadata generator
+  return generateTripMetadata(trip);
 }
 
 export default async function TripPage(props: {

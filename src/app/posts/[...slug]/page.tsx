@@ -1,13 +1,13 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/lib/api";
-import { CMS_NAME } from "@/lib/constants";
 import markdownToHtml from "@/lib/markdownToHtml";
 import Container from "@/app/_components/container";
 import Header from "@/app/_components/header";
 import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
 import { RelatedPosts, getRelatedPosts } from "@/app/_components/shared/related-posts";
+import { generatePostMetadata } from "@/lib/metadata/og-metadata";
 
 export default async function Post(props: Params) {
   const params = await props.params;
@@ -75,7 +75,6 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
   const params = await props.params;
   // Join slug array to handle nested paths
   const slugPath = Array.isArray(params.slug) ? params.slug.join('/') : params.slug;
-  console.log('generateMetadata slugPath:', slugPath);
 
   const post = getPostBySlug(slugPath);
 
@@ -83,15 +82,16 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
     return notFound();
   }
 
-  const title = `${post.title} | Next.js Blog Example with ${CMS_NAME}`;
-
-  return {
-    title,
-    openGraph: {
-      title,
-      images: post.ogImage ? [post.ogImage.url] : [post.poster],
-    },
-  };
+  // Use the comprehensive metadata generator
+  return generatePostMetadata({
+    title: post.title,
+    description: post.description,
+    slug: post.slug,
+    poster: post.poster,
+    completed: post.completed,
+    tags: post.tags,
+    category: post.category,
+  });
 }
 
 export async function generateStaticParams() {
