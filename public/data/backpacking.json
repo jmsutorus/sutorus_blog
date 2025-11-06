@@ -514,8 +514,6 @@
         "Check trail conditions before going - snow can linger on north slopes until August"
       ]
     },
-
-
     {
       "id": "olympic-2023",
       "featured": false,
@@ -701,6 +699,559 @@
         "Mosquitoes can be intense in July; bring head net and repellent",
         "Not many camping spot at Island Lake; arrive early or have backup locations",
         "Check trail conditions before going - snow can linger on north slopes until August"
+      ]
+    },
+    {
+      "id": "lighthouse-trail-2024",
+      "featured": false,
+      "name": "Lighthouse Trail",
+      "location": "Palo Duro Canyon, Texas",
+      "dates": "September 29, 2024",
+      "hero": {
+        "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762367790/DSCF1278_ifsfvy.jpg",
+        "alt": "Looking out over the canyon from the top of Lighthouse Trail",
+        "width": 4898,
+        "height": 3265
+      },
+      "stats": {
+        "distance": "6.25 miles",
+        "elevation": "+554 ft",
+        "difficulty": "Easy",
+        "duration": "1 day",
+        "season": "Late September - June",
+        "permits": "None",
+        "routeUrl": "https://www.alltrails.com/trail/us/texas/the-lighthouse-trail"
+      },
+      "story": "This is one of the most famous rock formations that can be very busy during the main visiting season. Although the trail is multi-use, it is particularly popular among mountain bikers in the area.  The trail leads from a large parking area and on a wide trail that travels through low shrub areas in a sandy environment. There are beautiful colorful cliffs that surround the valley and lead to the lighthouse formation.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Hiking!",
+          "distance": "6.25 miles",
+          "elevation": "+554 ft",
+          "highlights": [
+            "Well maintained trail"
+          ],
+          "description": "The first day started with a gentle climb through cathedral-like old-growth forest, where massive Douglas firs and western hemlocks created a cool, green canopy. After 3 miles, the trail steepened considerably as we gained the ridge, transitioning from deep forest to subalpine meadows. The wildflower display was spectacular - acres of lupine, paintbrush, and avalanche lilies carpeted the slopes. We took a long lunch break at Panorama Point (mile 5.5) where the full scope of the Alpine Lakes Wilderness spread before us. The final push to Upper Basin involved some rocky switchbacks, but the effort was rewarded with a stunning campsite beside a crystal-clear tarn. We set up camp with plenty of daylight remaining, allowing time to explore the basin and watch marmots emerge from their burrows as the afternoon sun warmed the rocks.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762367793/DSCF1252_dwqndz.jpg",
+              "alt": "Near the beginning of the trail",
+              "width": 4898,
+              "height": 3265,
+              "caption": "Near the beginning of the trail"
+            },
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762368239/IMG_6792_uycqk4.jpg",
+              "alt": "Made it to the lighthouse",
+              "width": 4898,
+              "height": 3265,
+              "caption": "Made it to the lighthouse"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762367789/DSCF1248_oylb2l.jpg",
+          "alt": "Cool rock formations along the trail",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Cool rock formations along the trail"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762367792/DSCF1242_kwf0nq.jpg",
+          "alt": "Cool rock formations along the trail",
+          "width": 4898,
+          "height": 3265,
+          "caption": "More cool rock formations along the trail"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762367791/DSCF1263_jzcnwh.jpg",
+          "alt": "Valley view from the trail",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Valley view from the trail"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762367790/DSCF1278_ifsfvy.jpg",
+          "alt": "Trail's namesake",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Trail's namesake"
+        }
+      ],
+      "gearHighlights": [
+        "40L ultralight backpack worked perfectly for 3 days"
+      ],
+      "tips": [
+        "Start Day 2 early to complete ridge traverse before afternoon storms"
+      ]
+    },
+    {
+      "id": "high-dune-trail-2024",
+      "featured": false,
+      "name": "High Dune Loop",
+      "location": "Great Sand Dunes National Park, Colorado",
+      "dates": "October 1, 2024",
+      "hero": {
+        "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762368796/DSCF1381_lntkeu.jpg",
+        "alt": "Sunset at the dunes",
+        "width": 4898,
+        "height": 3265
+      },
+      "stats": {
+        "distance": "3.69 miles",
+        "elevation": "+705 ft",
+        "difficulty": "Easy",
+        "duration": "1 day",
+        "season": "Late September - June",
+        "permits": "None",
+        "routeUrl": "https://www.alltrails.com/trail/us/colorado/high-dune-loop"
+      },
+      "story": "This route takes you on a completely off-trail dune hike to the top of High Dune and back. Although this route does follow paths that are commonly used to reach the top of High Dune, there are many ways to navigate the dunes. These routes are not marked, and not maintained by the park. The dunes are constantly moving and shifting, so this route itself may change and shift over time. You should be prepared to navigate off-trail. Bring a printed map and compass as backup, and download your offline map ahead of time. You will be walking in deep sand the entire time, and the scenery is spectacular and unique.",
+      "itinerary": [
+        {
+          "day": 0,
+          "title": "Arrived at Great Sand Dunes National Park",
+          "distance": "",
+          "elevation": "",
+          "highlights": [
+            "Well maintained trail"
+          ],
+          "description": "The first day started with a gentle climb through cathedral-like old-growth forest, where massive Douglas firs and western hemlocks created a cool, green canopy. After 3 miles, the trail steepened considerably as we gained the ridge, transitioning from deep forest to subalpine meadows. The wildflower display was spectacular - acres of lupine, paintbrush, and avalanche lilies carpeted the slopes. We took a long lunch break at Panorama Point (mile 5.5) where the full scope of the Alpine Lakes Wilderness spread before us. The final push to Upper Basin involved some rocky switchbacks, but the effort was rewarded with a stunning campsite beside a crystal-clear tarn. We set up camp with plenty of daylight remaining, allowing time to explore the basin and watch marmots emerge from their burrows as the afternoon sun warmed the rocks.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762368649/DSCF1313_c79arv.jpg",
+              "alt": "Picture of us at the wellcome signl",
+              "width": 4898,
+              "height": 3265,
+              "caption": "Picture of us at the wellcome sign"
+            },
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762368653/DSCF1300_q6stl5.jpg",
+              "alt": "View of the mountains from the car",
+              "width": 4898,
+              "height": 3265,
+              "caption": "View of the mountains from the car"
+            }
+          ]
+        },
+        {
+          "day": 1,
+          "title": "Hiking the High Dune Loop",
+          "distance": "3.69 miles",
+          "elevation": "+705 ft",
+          "highlights": [
+            "Well maintained trail"
+          ],
+          "description": "The first day started with a gentle climb through cathedral-like old-growth forest, where massive Douglas firs and western hemlocks created a cool, green canopy. After 3 miles, the trail steepened considerably as we gained the ridge, transitioning from deep forest to subalpine meadows. The wildflower display was spectacular - acres of lupine, paintbrush, and avalanche lilies carpeted the slopes. We took a long lunch break at Panorama Point (mile 5.5) where the full scope of the Alpine Lakes Wilderness spread before us. The final push to Upper Basin involved some rocky switchbacks, but the effort was rewarded with a stunning campsite beside a crystal-clear tarn. We set up camp with plenty of daylight remaining, allowing time to explore the basin and watch marmots emerge from their burrows as the afternoon sun warmed the rocks.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762368653/DSCF1360_ofk6rr.jpg",
+              "alt": "Approaching the dunes",
+              "width": 4898,
+              "height": 3265,
+              "caption": "Approaching the dunes"
+            },
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762368666/IMG_6885_x6x1zq.jpg",
+              "alt": "4 Ever J + E",
+              "width": 4898,
+              "height": 3265,
+              "caption": "4 Ever J + E"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762368796/DSCF1381_lntkeu.jpg",
+          "alt": "Sunset photo of couple at the dunes",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Sunset photo of couple at the dunes"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762368644/DSCF1496_nqjwwj.jpg",
+          "alt": "",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Showing the scale of the dunes"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762368648/DSCF1329_xmsg4o.jpg",
+          "alt": "Cute pic of Elizabeth",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Cute pic of Elizabeth"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762368646/DSCF1446_tkxh8s.jpg",
+          "alt": "Looking back at our footprints",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Looking back at our footprints"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762368644/DSCF1444_p7rthl.jpg",
+          "alt": "Dunes",
+          "width": 4898,
+          "height": 3265,
+          "caption": ""
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762368643/DSCF1487_oykwhc.jpg",
+          "alt": "Dunes",
+          "width": 4898,
+          "height": 3265,
+          "caption": ""
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762369603/DSCF1530_fjh8y6.jpg",
+          "alt": "Cool guy",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Cool guy"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762369612/IMG_6899_vnfgjh.jpg",
+          "alt": "Cool girl",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Cool girl"
+        }
+      ],
+      "gearHighlights": [
+        "40L ultralight backpack worked perfectly for 3 days"
+      ],
+      "tips": [
+        "Start Day 2 early to complete ridge traverse before afternoon storms"
+      ]
+    },
+    {
+      "id": "pancake-rocks-2024",
+      "featured": false,
+      "name": "Pancake Rocks",
+      "location": "Pikes National Forest, Colorado",
+      "dates": "October 3, 2024",
+      "hero": {
+        "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762373402/DSCF1699_hg7m3k.jpg",
+        "alt": "At the end of the trail",
+        "width": 4898,
+        "height": 3265
+      },
+      "stats": {
+        "distance": "6.2 miles",
+        "elevation": "+1,699 ft",
+        "difficulty": "Moderate",
+        "duration": "1 day",
+        "season": "Late March - November",
+        "permits": "None",
+        "routeUrl": "https://www.alltrails.com/trail/us/colorado/pancake-rocks--2"
+      },
+      "story": "This trail leads hikers to Pancake Rocks, which resemble a stack of pancakes. The trail begins at the Horsethief Falls Trailhead on South State Highway 67. From here, you'll make a gradual ascent through a breathtaking mixed forest with towering pines and shimmering aspens. From the top, you'll see sweeping, panoramic views of the neighboring peaks, including the majestic outline of Pikes Peak. ",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Hiking",
+          "distance": "6.2 miles",
+        "elevation": "+1,699 ft",
+          "highlights": [
+            "Well maintained trail"
+          ],
+          "description": "The first day started with a gentle climb through cathedral-like old-growth forest, where massive Douglas firs and western hemlocks created a cool, green canopy. After 3 miles, the trail steepened considerably as we gained the ridge, transitioning from deep forest to subalpine meadows. The wildflower display was spectacular - acres of lupine, paintbrush, and avalanche lilies carpeted the slopes. We took a long lunch break at Panorama Point (mile 5.5) where the full scope of the Alpine Lakes Wilderness spread before us. The final push to Upper Basin involved some rocky switchbacks, but the effort was rewarded with a stunning campsite beside a crystal-clear tarn. We set up camp with plenty of daylight remaining, allowing time to explore the basin and watch marmots emerge from their burrows as the afternoon sun warmed the rocks.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762373417/DSCF1734_q8sgl5.jpg",
+              "alt": "The afor mentioned pancake rocks",
+              "width": 4898,
+              "height": 3265,
+              "caption": "The afor mentioned pancake rocks"
+            },
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762373391/DSCF1717_iu8jd8.jpg",
+              "alt": "Found a rare gem",
+              "width": 4898,
+              "height": 3265,
+              "caption": "Found a rare gem"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762373420/DSCF1665_xvio5c.jpg",
+          "alt": "",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Fall colors"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762373419/DSCF1620_fhr3ff.jpg",
+          "alt": "",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Elizabeth in the woods"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762373419/DSCF1604_gays9m.jpg",
+          "alt": "",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Park sign"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762373416/DSCF1612_rsve1h.jpg",
+          "alt": "",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Wooded trail"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762373416/DSCF1617_i03t33.jpg",
+          "alt": "",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Fall colors"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762373408/DSCF1661_py84ru.jpg",
+          "alt": "",
+          "width": 4898,
+          "height": 3265,
+          "caption": "Pancake rocks"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762373402/DSCF1699_hg7m3k.jpg",
+          "alt": "Title",
+          "width": 4898,
+          "height": 3265,
+          "caption": ""
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762373396/DSCF1646_n2t3hq.jpg",
+          "alt": "Great colors behind Elizabeth",
+          "width": 4898,
+          "height": 3265,
+          "caption": ""
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762373396/DSCF1695_ufoz26.jpg",
+          "alt": "Great colors behind Elizabeth",
+          "width": 4898,
+          "height": 3265,
+          "caption": ""
+        }
+      ],
+      "gearHighlights": [
+        "40L ultralight backpack worked perfectly for 3 days"
+      ],
+      "tips": [
+        "Start Day 2 early to complete ridge traverse before afternoon storms"
+      ]
+    },
+    {
+      "id": "north-circle-loop-2022",
+      "featured": false,
+      "name": "North Circle Loop",
+      "location": "Glacier National Park, Montana",
+      "dates": "August 1-6, 2022",
+      "hero": {
+        "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762383869/IMG_1189_pjqy68.jpg",
+        "alt": "Mountain views from the trail",
+        "width": 4898,
+        "height": 3265
+      },
+      "stats": {
+        "distance": "64.92 miles",
+        "elevation": "+12,753 ft",
+        "difficulty": "Difficult",
+        "duration": "5 days / 4 nights",
+        "season": "July - October",
+        "permits": "National Park Permit",
+        "routeUrl": "https://www.alltrails.com/trail/us/montana/north-circle-loop"
+      },
+      "story": "This epic backpacking trip is also known as the Many Glacier Loop. It takes you on a series of Glacier's popular trails, bringing you through three major regions of the park. It is recommended to download your offline map ahead of time for this multi-day route since cell service in the park is unreliable.",
+      "itinerary": [
+        {
+          "day": 0,
+          "title": "Hiking",
+          "distance": "",
+        "elevation": "",
+          "highlights": [
+            "Well maintained trail"
+          ],
+          "description": "The first day started with a gentle climb through cathedral-like old-growth forest, where massive Douglas firs and western hemlocks created a cool, green canopy. After 3 miles, the trail steepened considerably as we gained the ridge, transitioning from deep forest to subalpine meadows. The wildflower display was spectacular - acres of lupine, paintbrush, and avalanche lilies carpeted the slopes. We took a long lunch break at Panorama Point (mile 5.5) where the full scope of the Alpine Lakes Wilderness spread before us. The final push to Upper Basin involved some rocky switchbacks, but the effort was rewarded with a stunning campsite beside a crystal-clear tarn. We set up camp with plenty of daylight remaining, allowing time to explore the basin and watch marmots emerge from their burrows as the afternoon sun warmed the rocks.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762383865/IMG_1120_ntutpn.jpg",
+              "alt": "",
+              "width": 4898,
+              "height": 3265,
+              "caption": "Welcome sign photo"
+            },
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762383909/DSCF4559_tanryu.jpg",
+              "alt": "",
+              "width": 4898,
+              "height": 3265,
+              "caption": "Cool mountain"
+            }
+          ]
+        },
+        {
+          "day": 1,
+          "title": "Hiking",
+          "distance": "15.5 miles",
+        "elevation": "3075 ft",
+          "highlights": [
+            "Well maintained trail"
+          ],
+          "description": "The first day started with a gentle climb through cathedral-like old-growth forest, where massive Douglas firs and western hemlocks created a cool, green canopy. After 3 miles, the trail steepened considerably as we gained the ridge, transitioning from deep forest to subalpine meadows. The wildflower display was spectacular - acres of lupine, paintbrush, and avalanche lilies carpeted the slopes. We took a long lunch break at Panorama Point (mile 5.5) where the full scope of the Alpine Lakes Wilderness spread before us. The final push to Upper Basin involved some rocky switchbacks, but the effort was rewarded with a stunning campsite beside a crystal-clear tarn. We set up camp with plenty of daylight remaining, allowing time to explore the basin and watch marmots emerge from their burrows as the afternoon sun warmed the rocks.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762383880/IMG_1222_ra03gn.jpg",
+              "alt": "",
+              "width": 4898,
+              "height": 3265,
+              "caption": "Looking down at our camp site"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Hiking",
+          "distance": "11 miles",
+          "elevation": "450 ft",
+          "highlights": [
+            "Well maintained trail"
+          ],
+          "description": "The first day started with a gentle climb through cathedral-like old-growth forest, where massive Douglas firs and western hemlocks created a cool, green canopy. After 3 miles, the trail steepened considerably as we gained the ridge, transitioning from deep forest to subalpine meadows. The wildflower display was spectacular - acres of lupine, paintbrush, and avalanche lilies carpeted the slopes. We took a long lunch break at Panorama Point (mile 5.5) where the full scope of the Alpine Lakes Wilderness spread before us. The final push to Upper Basin involved some rocky switchbacks, but the effort was rewarded with a stunning campsite beside a crystal-clear tarn. We set up camp with plenty of daylight remaining, allowing time to explore the basin and watch marmots emerge from their burrows as the afternoon sun warmed the rocks.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762383913/IMG_9136_fcb887.jpg",
+              "alt": "Hikers in front of a waterfall",
+              "width": 4898,
+              "height": 3265,
+              "caption": "Taking a break"
+            },
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762383903/IMG_1396_lltr1p.jpg",
+              "alt": "",
+              "width": 4898,
+              "height": 3265,
+              "caption": "Night two camp site"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Hiking",
+          "distance": "14.5 miles",
+          "elevation": "5075 ft",
+          "highlights": [
+            "Well maintained trail"
+          ],
+          "description": "The first day started with a gentle climb through cathedral-like old-growth forest, where massive Douglas firs and western hemlocks created a cool, green canopy. After 3 miles, the trail steepened considerably as we gained the ridge, transitioning from deep forest to subalpine meadows. The wildflower display was spectacular - acres of lupine, paintbrush, and avalanche lilies carpeted the slopes. We took a long lunch break at Panorama Point (mile 5.5) where the full scope of the Alpine Lakes Wilderness spread before us. The final push to Upper Basin involved some rocky switchbacks, but the effort was rewarded with a stunning campsite beside a crystal-clear tarn. We set up camp with plenty of daylight remaining, allowing time to explore the basin and watch marmots emerge from their burrows as the afternoon sun warmed the rocks.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762383916/DSCF5261_da7nn3.jpg",
+              "alt": "Sunset outside the campsite",
+              "width": 4898,
+              "height": 3265,
+              "caption": "Sunset outside the campsite"
+            },
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762383854/DSCF5426_qjjop3.jpg",
+              "alt": "Deer at camp",
+              "width": 4898,
+              "height": 3265,
+              "caption": "Deer at camp"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Hiking",
+          "distance": "13 miles",
+        "elevation": "1120 ft",
+          "highlights": [
+            "Well maintained trail"
+          ],
+          "description": "The first day started with a gentle climb through cathedral-like old-growth forest, where massive Douglas firs and western hemlocks created a cool, green canopy. After 3 miles, the trail steepened considerably as we gained the ridge, transitioning from deep forest to subalpine meadows. The wildflower display was spectacular - acres of lupine, paintbrush, and avalanche lilies carpeted the slopes. We took a long lunch break at Panorama Point (mile 5.5) where the full scope of the Alpine Lakes Wilderness spread before us. The final push to Upper Basin involved some rocky switchbacks, but the effort was rewarded with a stunning campsite beside a crystal-clear tarn. We set up camp with plenty of daylight remaining, allowing time to explore the basin and watch marmots emerge from their burrows as the afternoon sun warmed the rocks.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762383896/DSCF5441_iwvi7o.jpg",
+              "alt": "Mountain views",
+              "width": 4898,
+              "height": 3265,
+              "caption": "Mountain views"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Hiking",
+          "distance": "11 miles",
+          "elevation": "4200 ft",
+          "highlights": [
+            "Well maintained trail"
+          ],
+          "description": "The first day started with a gentle climb through cathedral-like old-growth forest, where massive Douglas firs and western hemlocks created a cool, green canopy. After 3 miles, the trail steepened considerably as we gained the ridge, transitioning from deep forest to subalpine meadows. The wildflower display was spectacular - acres of lupine, paintbrush, and avalanche lilies carpeted the slopes. We took a long lunch break at Panorama Point (mile 5.5) where the full scope of the Alpine Lakes Wilderness spread before us. The final push to Upper Basin involved some rocky switchbacks, but the effort was rewarded with a stunning campsite beside a crystal-clear tarn. We set up camp with plenty of daylight remaining, allowing time to explore the basin and watch marmots emerge from their burrows as the afternoon sun warmed the rocks.",
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762383861/DSCF5586_hyxyzk.jpg",
+              "alt": "Bench overlooking the valley",
+              "width": 4898,
+              "height": 3265,
+              "caption": ""
+            },
+            {
+              "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762383915/DSCF5028_pm7mis.jpg",
+              "alt": "Mountain with lake in front",
+              "width": 4898,
+              "height": 3265,
+              "caption": ""
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762383849/DSCF5517_gztbwl.jpg",
+          "alt": "Trail views",
+          "width": 4898,
+          "height": 3265,
+          "caption": ""
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762383899/IMG_1543_ehlbo1.jpg",
+          "alt": "On trail pic",
+          "width": 4898,
+          "height": 3265,
+          "caption": ""
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762383909/IMG_1369_qicauk.jpg",
+          "alt": "Alpine meadow",
+          "width": 4898,
+          "height": 3265,
+          "caption": ""
+        },
+        {
+          "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1762383912/DSCF5043_qii1yb.jpg",
+          "alt": "",
+          "width": 4898,
+          "height": 3265,
+          "caption": ""
+        }
+      ],
+      "gearHighlights": [
+        "40L ultralight backpack worked perfectly for 3 days"
+      ],
+      "tips": [
+        "Start Day 2 early to complete ridge traverse before afternoon storms"
       ]
     }
   ],
