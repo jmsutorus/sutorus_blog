@@ -50,6 +50,11 @@ export function Nav() {
                 Wedding
               </Button>
             </Link>
+            <Link href="/honeymoon">
+              <Button variant="ghost" size="sm">
+                Honeymoon
+              </Button>
+            </Link>
             <Link href="/backpacking">
               <Button variant="ghost" size="sm">
                 Backpacking

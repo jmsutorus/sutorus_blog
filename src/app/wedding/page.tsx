@@ -81,7 +81,7 @@ export default async function WeddingPage() {
       <WeddingThanksSection />
 
       {/* Gallery Section */}
-      <WeddingGallery images={data.gallery} />
+      <WeddingGallery images={data.gallery} isWeddingPage={true} />
 
       {/* Optional: Footer or additional sections can be added here */}
     </main>

@@ -20,6 +20,7 @@ const navLinks = [
   { href: "/reviews", label: "Reviews" },
   { href: "/about", label: "About" },
   { href: "/wedding", label: "Wedding" },
+  { href: "/honeymoon", label: "Honeymoon" },
   { href: "/backpacking", label: "Backpacking" },
   { href: "/projects", label: "Projects" },
   { href: "/contact", label: "Contact" },

@@ -42,9 +42,16 @@ module.exports = {
                 hostname: 'cdn2.steamgriddb.com',
                 port: '',
                 pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'images.unsplash.com',
+                port: '',
+                pathname: '/**',
             }
         ],
     },
+    turbopack: {},
     webpack(config) {
     config.resolve.fallback = {
 

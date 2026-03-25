@@ -1,0 +1,169 @@
+{
+  "hero": {
+    "title": "Our Honeymoon",
+    "names": "Joseph & Elizabeth",
+    "date": "February 2026",
+    "location": "Xcaret, Playa del Carmen, Mexico",
+    "image": {
+      "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1774388446/IMG_9398_gpfl6q.jpg",
+      "alt": "Playa del Carmen, Mexico",
+      "width": 1920,
+      "height": 1080
+    },
+    "mobileImage": {
+      "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1774388446/IMG_9398_gpfl6q.jpg",
+      "alt": "Playa del Carmen, Mexico",
+      "width": 800,
+      "height": 1200
+    }
+  },
+  "days": [
+    {
+      "dayNumber": 1,
+      "title": "Arrival & Upgrades",
+      "content": "We arrived at our resort in Mexico and checked in, only to receive an amazing surprise: we got a room upgrade! We spent some time getting settled in and exploring our beautiful new space.\n\nFor dinner, we went to Encanta to celebrate our first night. They served a really cool tasting menu that was the perfect way to kick off the honeymoon.",
+      "image": {
+        "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1774388495/IMG_9379_bcq24n.jpg",
+        "alt": "At the pool",
+        "width": 800,
+        "height": 600
+      },
+      "imagePosition": "left"
+    },
+    {
+      "dayNumber": 2,
+      "title": "Spa Day",
+      "content": "We slept in and hung out in the morning, enjoying a slow start to the day. For breakfast, we headed over to Cayuco to fuel up for the day of relaxation ahead.\n\nWe spent the rest of the day at the spa having a full spa day, which was incredibly relaxing. For dinner, we tried Tah Xido. It was just okay, but the relaxing day more than made up for it.",
+      "image": {
+        "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1774388817/IMG_8722_ydtimt.jpg",
+        "alt": "Quick pic before dinner",
+        "width": 800,
+        "height": 600
+      },
+      "imagePosition": "right"
+    },
+    {
+      "dayNumber": 3,
+      "title": "The Xenotes Tour",
+      "content": "Today was our all-day tour of Xenotes, and it was an absolute blast! We spent the day exploring the incredible natural cenotes hidden throughout the jungle.\n\nWe did a bit of everything: riding zip lines into the water, snorkeling below the surface, and kayaking through the caverns. It was non-stop fun. For dinner, we went to Mercado de San Juan, which was a massive Mexican buffet with tons of great options.",
+      "image": {
+        "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1771965270/IMG_8844_uhjsjn.jpg",
+        "alt": "Kayaking in a cenote",
+        "width": 800,
+        "height": 600
+      },
+      "imagePosition": "left"
+    },
+    {
+      "dayNumber": 4,
+      "title": "Xel-Há Adventures",
+      "content": "We took a day trip to Xel-Há, which ended up being my favorite park of the whole trip. We spent the day snorkeling in the inlet and even got to see manatees!\n\nThere was so much water fun to be had, including going down a massive slide. After a long day of swimming, we got dressed up and went to Cosexa for dinner, a vegan Mexican restaurant. The food was absolutely excellent.",
+      "image": {
+        "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1771965265/IMG_9314_ms40w3.jpg",
+        "alt": "At a bridge in Xel-Há",
+        "width": 800,
+        "height": 600
+      },
+      "imagePosition": "right"
+    },
+    {
+      "dayNumber": 5,
+      "title": "Exploring Xenses",
+      "content": "After all the action yesterday, we had a slow morning before heading out to Xenses park. The park was full of mind-bending illusions and unique sensory experiences.\n\nWe took lots of pictures together having fun with all the crazy exhibits. For dinner, we went to Arenal. The dinner was okay, but we still enjoyed our time reflecting on the crazy photos from the day.",
+      "image": {
+        "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1771965275/IMG_9023_a2z9ys.jpg",
+        "alt": "Why she doing that",
+        "width": 800,
+        "height": 600
+      },
+      "imagePosition": "left"
+    },
+    {
+      "dayNumber": 6,
+      "title": "Action at Xplor",
+      "content": "We geared up for another action-packed day, this time heading to Xplor park. We actually biked to the park from our hotel, which ended up being a really fun way to get there.\n\nThe park itself was incredible. We spent hours doing all sorts of activities, but the highlight was definitely all the high-flying ziplines over the jungle canopy.",
+      "image": {
+        "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1771965266/IMG_9216_hx34dr.jpg",
+        "alt": "Swimming through the caves",
+        "width": 800,
+        "height": 600
+      },
+      "imagePosition": "right"
+    },
+    {
+      "dayNumber": 7,
+      "title": "Poolside Bliss",
+      "content": "For our final day, we made it a point to do absolutely nothing except hang out by the pool and eat our favorite foods from the trip.\n\nWe started with breakfast back at Cosexa, grabbed lunch at Arenal, and spent the hours in between soaking up the sun and swimming. For our final dinner in paradise, we ate at Cantina Viaipiy, capping off an unforgettable honeymoon.",
+      "image": {
+        "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1771965266/IMG_9112_vk48ue.jpg",
+        "alt": "We love eachother lol",
+        "width": 800,
+        "height": 600
+      },
+      "imagePosition": "left"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1771965262/IMG_9171_xkn2ki.jpg",
+      "alt": "Mexican cuisine",
+      "width": 1200,
+      "height": 800,
+      "caption": ""
+    },
+    {
+      "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1771965264/IMG_9121_yqof4k.jpg",
+      "alt": "Beautiful sunset over the ocean",
+      "width": 1200,
+      "height": 800,
+      "caption": ""
+    },
+    {
+      "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1771965265/IMG_9252_mveoc0.jpg",
+      "alt": "Palm fronds against blue sky",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1771965267/IMG_8841_feajlf.jpg",
+      "alt": "Sea turtle swimming",
+      "width": 800,
+      "height": 1200,
+      "caption": ""
+    },
+    {
+      "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1771965267/IMG_8841_feajlf.jpg",
+      "alt": "Resort pool and beach",
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1771965270/IMG_9304_pret9n.jpg",
+      "alt": "Jungle landscape",
+      "width": 1000,
+      "height": 1000,
+      "caption": ""
+    },
+    {
+      "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1771965273/IMG_9104_fpk7kd.jpg",
+      "alt": "Jungle landscape",
+      "width": 1000,
+      "height": 1000,
+      "caption": ""
+    },
+    {
+      "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1771965273/IMG_8985_xciu1i.jpg",
+      "alt": "Jungle landscape",
+      "width": 1000,
+      "height": 1000,
+      "caption": ""
+    },
+    {
+      "url": "https://res.cloudinary.com/dkwuzhlyz/image/upload/v1771965270/IMG_8969_indkyi.jpg",
+      "alt": "Jungle landscape",
+      "width": 1000,
+      "height": 1000,
+      "caption": ""
+    }
+  ]
+}
