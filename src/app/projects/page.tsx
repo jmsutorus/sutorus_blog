@@ -10,15 +10,9 @@ export const metadata: Metadata = {
 export default function ProjectsPage() {
   const projects = [
     {
-      title: 'Film & TV Review Blog',
-      description: 'A comprehensive platform for thoughtful reviews and analysis of contemporary entertainment, built with Next.js and modern web technologies.',
-      tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
-      status: 'Active',
-    },
-    {
-      title: 'Database of Reviews',
-      description: 'An organized collection of all my reviews, featuring advanced filtering and search capabilities to help readers discover content.',
-      tags: ['React', 'TypeScript', 'Data Management'],
+      title: 'homepage.sutorus.com',
+      description: "A life tracking site that lets users keep track of everything that they have done such as movies seen, books read, and restaurants attended.",
+      tags: ['Life Tracking', 'Next.js', 'React'],
       status: 'Active',
     },
   ];
